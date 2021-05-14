@@ -7,7 +7,8 @@
     <nav class="mainmenu is-sticky navbar navbar-expand-lg animatedParent" id="mainmenu">
         <div class="container">
             <a class="navbar-brand  animated" href="./">
-                <img class="logo logo-dark" alt="logo" src="img/main-logo.png"  style="height:60px;" /> GOLDCHAIN
+                <img class="logo logo-dark" alt="logo" src="img/icon.png"  style="height:60px;" /> 
+                <img class="logo logo-dark" alt="logo" src="img/logo12.png" /> 
             </a>
             <button
                 class="navbar-toggler"

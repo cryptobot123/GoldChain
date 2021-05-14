@@ -6,7 +6,7 @@
 <footer class="footer text-center animatedParent">
     <div class="footer-main">
         <div class="container py-5">
-            <div class="footer-logo animated fadeInUpShort"><img src="/img/footer-logo.webp" alt="Gold Chain" /></div>
+            <div class="footer-logo animated fadeInUpShort"><img src="/img/icon.png" style="height: 50px;" alt="Gold Chain" /></div>
             <div class="social py-3 animated fadeInUpShort delay-250">
                 <div class="social-links row">
                     <a class="col" href="#"> <i class="fab fa-facebook-f" /> </a>

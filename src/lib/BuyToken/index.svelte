@@ -23,9 +23,12 @@
 </svelte:head>
 
 <div>
-    <input type="number" min="0.01" bind:value={buyAmount} aria-label="BNB" placeholder="BNB amount" />
-    <button on:click={buyToken}> Buy Token </button>
-
+    <div class="form-group">
+        <input class={"form-control ico-form"} type="number" min="0.01" bind:value={buyAmount} aria-label="BNB" placeholder="BNB amount" />
+    </div>
+    <div class="form-group">
+        <button class={"btn btn-ico btn-block"} on:click={buyToken}> Buy Token </button>
+    </div>
     {#if transactionHash}
         <p>Transaction receipt: {transactionHash}</p>
     {/if}

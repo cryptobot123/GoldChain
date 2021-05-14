@@ -6,7 +6,7 @@
 </script>
 
 <div>
-    <input name="text" bind:value={address} aria-label="Your BEP20 Address" placeholder="Your BEP20 Address" />
+    <input name="text" class={"form-control ico-form"} bind:value={address} aria-label="Your BEP20 Address" placeholder="Your BEP20 Address" />
 
     {#if address}
         <p>Your refer link: {referLink}</p>

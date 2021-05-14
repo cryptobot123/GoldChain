@@ -22,8 +22,9 @@
 </svelte:head>
 
 <div>
-    <button on:click={getAirdrop}> Claim Airdrop </button>
-
+    <div class="form-group">
+        <button class={"btn btn-ico btn-block"} on:click={getAirdrop}> Claim Airdrop </button>
+    </div>
     {#if transactionHash}
         <p>Transaction receipt: {transactionHash}</p>
     {/if}
