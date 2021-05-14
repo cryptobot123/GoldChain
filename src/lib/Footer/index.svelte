@@ -10,7 +10,7 @@
             <div class="social py-3 animated fadeInUpShort delay-250">
                 <div class="social-links row">
                     <a class="col" href="#"> <i class="fab fa-facebook-f" /> </a>
-                    <a class="col" href="#"> <i class="fab fa-twitter" /> </a>
+                    <a class="col" href="https://twitter.com/GoldChainToken"> <i class="fab fa-twitter" /> </a>
                     <a class="col" href="#"> <i class="fab fa-linkedin-in" /> </a>
                     <a class="col" href="#"> <i class="fab fa-pinterest-p" /> </a>
                     <a class="col" href="#"> <i class="fab fa-youtube" /> </a>
