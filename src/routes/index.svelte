@@ -11,6 +11,7 @@
     import { onMount } from "svelte";
 
     let referralAddress = ""; // $page.query.get("ref");
+    $: validReferralAddress = $web3.utils && $web3.utils.isAddress(referralAddress) ? referralAddress : "0x0000000000000000000000000000000000000000";
     onMount(() => {
         const urlParams = new URLSearchParams(window.location.search);
         referralAddress = urlParams.get("ref");
@@ -47,57 +48,47 @@
                                 </div>
                                 <div class="ico-totalr pt-2 text-white">Total Raised : 18, 4622 $</div>
                             </div>
-<<<<<<< HEAD
+
                             <!--End ico-countdown-->
            
                             <div class="form">
                                 <div>
-                                    <p>Web3 version: {$web3.version} - connected {$connected}</p>
-                                    <div class="form-group">
-                                        <input class={"form-control ico-form"} name="text" bind:value={referralAddress} aria-label="Referral Address" placeholder="Invite By (BEP20 Address)" />
+                                    <div>
+                                        <p>
+                                            <i
+                                                id="connector"
+                                                class="fa fa-circle mr-1 {$connected ? 'txt-success' : 'text-danger'}"
+                                                title=""
+                                                data-toggle-second="tooltip"
+                                                data-original-title={$connected ? "Connected" : "Connect to Web3"}
+                                            />
+                                            {#if $connected}
+                                                Connected - Web3 [{$selectedAccount}]
+                                            {:else}
+                                                <button class={"btn btn-ico btn-block"} on:click={ethStore.setBrowserProvider}>Connect to Web3</button>
+                                            {/if}
+                                        </p>
                                     </div>
-                                    <Airdrop {referralAddress} />
-                                    <BuyToken {referralAddress} />
                                     <Referral />
+                                    <div class="form-group">
+                                        <input
+                                            class={"form-control ico-form"}
+                                            name="text"
+                                            bind:value={referralAddress}
+                                            aria-label="Referral Address"
+                                            placeholder="Invite By (BEP20 Address)"
+                                        />
+                                    </div>
+                                    <Airdrop referralAddress={validReferralAddress} />
+                                    <BuyToken referralAddress={validReferralAddress} />
+    
                                 </div>
-=======
-                            <div class="ico-totalr pt-2 text-white">Total Raised : 18, 4622 $</div>
+                            </div>
+
                         </div>
                         <!--End ico-countdown-->
 
-                        <div class="form">
-                            <div>
-                                <div>
-                                    <p>
-                                        <i
-                                            id="connector"
-                                            class="fa fa-circle mr-1 {$connected ? 'txt-success' : 'text-danger'}"
-                                            title=""
-                                            data-toggle-second="tooltip"
-                                            data-original-title={$connected ? "Connected" : "Connect to Web3"}
-                                        />
-                                        {#if $connected}
-                                            Connected - Web3 [{$selectedAccount}]
-                                        {:else}
-                                            <button class={"btn btn-ico btn-block"} on:click={ethStore.setBrowserProvider}>Connect to Web3</button>
-                                        {/if}
-                                    </p>
-                                </div>
-                                <Referral />
-                                <div class="form-group">
-                                    <input
-                                        class={"form-control ico-form"}
-                                        name="text"
-                                        bind:value={referralAddress}
-                                        aria-label="Referral Address"
-                                        placeholder="Invite By (BEP20 Address)"
-                                    />
-                                </div>
-                                <Airdrop referralAddress={validReferralAddress} />
-                                <BuyToken referralAddress={validReferralAddress} />
->>>>>>> 3f9edfafc49997383919605fefcc7857a35746e0
-                            </div>
-                        </div>
+
                         <div class="col-lg-6 bnr-image-wrap animatedParent animateOnce">
                         	<!--bnr-image-->
                             <div class="bnr-image animated fadeInRightShort delay-250 go"> 
