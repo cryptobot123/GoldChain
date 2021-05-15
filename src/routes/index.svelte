@@ -41,9 +41,9 @@
                                 <div class="ico-progress">
                                     <div class="progress">
                                         <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                                        <span class="level-1" style="left:20%">Pre-Sale</span>
-                                        <span class="level-2" style="left:50%">Soft Cap</span>
-                                        <span class="level-3" style="left:80%">Bonus</span>
+                                        <span class="level-1" style="left:20%">Phase 1</span>
+                                        <span class="level-2" style="left:50%">Phase 2</span>
+                                        <span class="level-3" style="left:80%">Phase 3</span>
                                     </div>
                                 </div>
                                 <div class="ico-totalr pt-2 text-white">Total Raised : 18, 4622 $</div>

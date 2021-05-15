@@ -7,11 +7,11 @@
     $: referLink = `${WEB_DOMAIN || ""}/?ref=${myReferAddress}`;
 </script>
 
-<div>
+<div class="form-group">
     {#if myReferAddress}
         <p>Your refer link: {referLink}</p>
         <CopyToClipboard text={referLink} let:copy>
-            <button on:click={copy}> Copy </button>
+            <button class="{"btn btn-ico btn-block"}" on:click={copy}> Copy </button>
         </CopyToClipboard>
     {/if}
 </div>
