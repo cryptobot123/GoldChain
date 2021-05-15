@@ -1,6 +1,6 @@
-export const contractAddress = "0x7cA495B489910fd468fEd2444E8F1C9F034DC430"; //GoldChain Testnet
+export const contractAddress = "0x1E585FFa08E1A0c70D04bebeBfD99597Fc938A02"; //GoldChain Testnet
 export const contractAbi = [
-    { inputs: [{ internalType: "address payable", name: "fundReceiver", type: "address" }], payable: false, stateMutability: "nonpayable", type: "constructor" },
+    { inputs: [], payable: false, stateMutability: "nonpayable", type: "constructor" },
     {
         anonymous: false,
         inputs: [
@@ -31,6 +31,15 @@ export const contractAbi = [
         type: "event",
     },
     { payable: true, stateMutability: "payable", type: "fallback" },
+    {
+        constant: true,
+        inputs: [{ internalType: "address", name: "refer", type: "address" }],
+        name: "_referValid",
+        outputs: [{ internalType: "bool", name: "", type: "bool" }],
+        payable: false,
+        stateMutability: "view",
+        type: "function",
+    },
     {
         constant: true,
         inputs: [
@@ -64,15 +73,8 @@ export const contractAbi = [
         stateMutability: "view",
         type: "function",
     },
-    {
-        constant: false,
-        inputs: [{ internalType: "uint256", name: "amount", type: "uint256" }],
-        name: "burn",
-        outputs: [],
-        payable: false,
-        stateMutability: "nonpayable",
-        type: "function",
-    },
+    { constant: false, inputs: [], name: "burnByFixedAmount", outputs: [], payable: false, stateMutability: "nonpayable", type: "function" },
+    { constant: false, inputs: [], name: "burnByRate", outputs: [], payable: false, stateMutability: "nonpayable", type: "function" },
     { constant: false, inputs: [], name: "clearFund", outputs: [], payable: false, stateMutability: "nonpayable", type: "function" },
     { constant: true, inputs: [], name: "decimals", outputs: [{ internalType: "uint8", name: "", type: "uint8" }], payable: false, stateMutability: "view", type: "function" },
     {
@@ -110,6 +112,15 @@ export const contractAbi = [
         type: "function",
     },
     { constant: true, inputs: [], name: "name", outputs: [{ internalType: "string", name: "", type: "string" }], payable: false, stateMutability: "view", type: "function" },
+    {
+        constant: true,
+        inputs: [],
+        name: "nextBurnByRateAmount",
+        outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+        payable: false,
+        stateMutability: "view",
+        type: "function",
+    },
     { constant: true, inputs: [], name: "owner", outputs: [{ internalType: "address", name: "", type: "address" }], payable: false, stateMutability: "view", type: "function" },
     { constant: false, inputs: [], name: "renounceOwnership", outputs: [], payable: false, stateMutability: "nonpayable", type: "function" },
     {
