@@ -28,11 +28,11 @@
             <div class="container">
             	<div class="bnr-cnt" >
                 	<div class="row">
-                    	<div class="col-lg-6" data-sequence="250">
+                    	<div class="col-lg-6 animatedParent animateOnce" data-sequence="250">
                         	<!--bnr-head-->
                             <!--End bnr-head-->
                             <!--ico-countdown-->
-                            <div class="ico-countdown text-center px-5 py-4 my-5" data-id="2">
+                            <div class="ico-countdown text-center px-5 py-4 my-5 animated fadeInLeftShort go" data-id="2">
                             	<h4>ICO Ends in</h4>
                                 <div class="countdown my-4">
                                     <div class="row" data-date="2021/09/05"> <!--Append timer--></div>
@@ -63,11 +63,12 @@
                         </div>
                         <div class="col-lg-6 bnr-image-wrap animatedParent animateOnce">
                         	<!--bnr-image-->
-                            <div class="bnr-image"> 
+                            <div class="bnr-image animated fadeInRightShort delay-250 go"> 
                             	<img src="img/banner1.webp">
                             </div>
                             <!--End bnr-image-->
                         </div>
+
                     </div>
                 </div>
             </div>
