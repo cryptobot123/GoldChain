@@ -1,14 +1,14 @@
 <script>
+    import { selectedAccount } from "$lib/web3";
     import CopyToClipboard from "$lib/copyClipbloard.svelte";
     import { WEB_DOMAIN } from "$lib/Env.svelte";
-    let address;
-    $: referLink = `${WEB_DOMAIN || ""}/?ref=${address}`;
+
+    $: myReferAddress = $selectedAccount;
+    $: referLink = `${WEB_DOMAIN || ""}/?ref=${myReferAddress}`;
 </script>
 
 <div>
-    <input name="text" class={"form-control ico-form"} bind:value={address} aria-label="Your BEP20 Address" placeholder="Your BEP20 Address" />
-
-    {#if address}
+    {#if myReferAddress}
         <p>Your refer link: {referLink}</p>
         <CopyToClipboard text={referLink} let:copy>
             <button on:click={copy}> Copy </button>
