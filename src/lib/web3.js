@@ -95,8 +95,31 @@ export const createStore = () => {
         });
     };
 
+    const setWatchAsset = async ({ address, symbol, decimals, image }) => {
+        init();
+
+        if (!getWindowBinance()) {
+            throw new Error("Please authorized browser extension (Metamask or similar)");
+        }
+
+        const provider = getWindowBinance();
+        const res = await provider.request({
+            method: "wallet_watchAsset",
+            params: {
+                type: "ERC20",
+                options: {
+                    address: address,
+                    symbol: symbol,
+                    decimals: decimals,
+                    image: image,
+                },
+            },
+        });
+    };
+
     return {
         setBrowserProvider,
+        setWatchAsset,
         subscribe,
     };
 };
