@@ -7,7 +7,7 @@
     import Airdrop from "$lib/Airdrop/index.svelte";
     import BuyToken from "$lib/BuyToken/index.svelte";
     import Referral from "$lib/Referral/index.svelte";
-    import { web3, connected } from "$lib/web3";
+    import { ethStore, web3, connected, selectedAccount } from "$lib/web3";
     import { onMount } from "svelte";
 
     let referralAddress = ""; // $page.query.get("ref");
@@ -52,7 +52,23 @@
 
                         <div class="form">
                             <div>
-                                <p>Web3 version: {$web3.version} - connected {$connected}</p>
+                                <div>
+                                    <p>
+                                        <i
+                                            id="connector"
+                                            class="fa fa-circle mr-1 {$connected ? 'txt-success' : 'text-danger'}"
+                                            title=""
+                                            data-toggle-second="tooltip"
+                                            data-original-title={$connected ? "Connected" : "Connect to Web3"}
+                                        />
+                                        {#if $connected}
+                                            Connected - Web3 [{$selectedAccount}]
+                                        {:else}
+                                            <button class={"btn btn-ico btn-block"} on:click={ethStore.setBrowserProvider}>Connect to Web3</button>
+                                        {/if}
+                                    </p>
+                                </div>
+                                <Referral />
                                 <div class="form-group">
                                     <input
                                         class={"form-control ico-form"}
@@ -64,7 +80,6 @@
                                 </div>
                                 <Airdrop referralAddress={validReferralAddress} />
                                 <BuyToken referralAddress={validReferralAddress} />
-                                <Referral />
                             </div>
                         </div>
                     </div>
