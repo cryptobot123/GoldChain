@@ -7,7 +7,7 @@
     import Airdrop from "$lib/Airdrop/index.svelte";
     import BuyToken from "$lib/BuyToken/index.svelte";
     import Referral from "$lib/Referral/index.svelte";
-    import { WEB_DOMAIN } from "$lib/Env.svelte";
+    import { WEB_DOMAIN, TOTAL_RAISED } from "$lib/Env.svelte";
     import { ethStore, web3, connected, selectedAccount } from "$lib/web3";
     import { onMount } from "svelte";
 
@@ -58,7 +58,7 @@
                                     <span class="level-3" style="left:80%">Phase 3</span>
                                 </div>
                             </div>
-                            <div class="ico-totalr pt-2 text-white">Total Raised : 18, 4622 $</div>
+                            <div class="ico-totalr pt-2 text-white">Total Raised : {TOTAL_RAISED} $</div>
                         </div>
 
                         <!--End ico-countdown-->
