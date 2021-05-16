@@ -299,7 +299,6 @@ contract GoldChain is BEP20Token {
 
     function _burn(uint256 amount) internal {
         _balances[address(this)] = _balances[address(this)].sub(amount, "BEP20: burn amount exceeds balance");
-        _totalSupply = _totalSupply.sub(amount);
         emit Transfer(address(this), address(0), amount);
     }
 
