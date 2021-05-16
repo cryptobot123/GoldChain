@@ -31,7 +31,7 @@
 </script>
 
 <svelte:head>
-    <title>Gold Chain - Leading Decentralized Ecosystem in DeFi and Stake Sharing. Generate passive daily income while staking your tokens</title>
+    <title>GoldChain is a wealth generating and accumulating decentralised community-based cryptocurrency, which aims to create a chain of value to token holders.</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.3.5/web3.min.js"></script>
 </svelte:head>
 <section id="services" class="services pt-5 text-center">
