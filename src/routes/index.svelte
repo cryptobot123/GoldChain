@@ -36,6 +36,8 @@
 </svelte:head>
 <section id="services" class="services pt-5 text-center">
     <!--Banner/Hero Slider-->
+    
+    <div id="particles-js" class="particles-js"></div>
     <div class="banner">
         <!--Banner Container-->
         <div class="container">
@@ -102,7 +104,7 @@
                     <div class="col-lg-6 bnr-image-wrap animatedParent animateOnce">
                         <!--bnr-image-->
                         <div class="bnr-image animated fadeInRightShort delay-250 go">
-                            <img src="img/banner1.webp" />
+                            <img src="img/banner1.png" />
                         </div>
                         <!--End bnr-image-->
                     </div>
@@ -210,10 +212,10 @@ What’s best! We don’t use tree as a metaphor. Through our confirmed partners
         <div class="rmap-wrap">
             <div class="animatedParent animateOnce"><div class="rmap-year finished animated fadeInUpShort">2021</div></div>
             <div class="rmap-items row no-gutters animatedParent animateOnce" data-sequence="250">
-                <div class="col-md-6 rmap-item finished animated fadeInUpShort delay-250" data-id="1">
+                <div class="col-md-6 rmap-item finished animated active fadeInUpShort delay-250" data-id="1">
                     <div class="rmap-item-details row no-gutters">
-                        <div class="col-md"><h6>Wealth Creation</h6></div>
-                        <div class="col-md-5"><span class="date"> January, 2021 </span></div>
+                        <div class="col-md"><h6>Launch = Wealth Creation</h6></div>
+                        <div class="col-md-5"><span class="date"> Q2, 2021 </span></div>
                         <p class="small">
                             Website Launch <br/>
                             Social Media: Telegram, Twitter, Facebook, Instagram, Tiktok, Discord, Subreddit <br/>
@@ -230,9 +232,17 @@ What’s best! We don’t use tree as a metaphor. Through our confirmed partners
                 <!--rmap-item-->
                 <div class="col-md-6 rmap-item finished animated fadeInUpShort" data-id="2">
                     <div class="rmap-item-details row no-gutters">
-                        <div class="col-md"><h6>Private Presale</h6></div>
-                        <div class="col-md-5"><span class="date"> January, 2021 </span></div>
-                        <p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                        <div class="col-md"><h6>Develop = Wealth Accumulation</h6></div>
+                        <div class="col-md-5"><span class="date"> Q3, 2021 </span></div>
+                        <p class="small">
+                            Liquidity Holder <br/>
+                            Initial CEX Listings <br/>
+                            Pancake Swap Listing <br/>
+                            Robot VIP Group for crypto trading <br/>
+                            Celeb Marketing Partnerships <br/>
+                            Coin Design Campaign for <br/>
+                            50,000 Holders <br/>
+                        </p>
                         <div class="rmap-item-sets">
                             <span class="rmap-circle"><span /></span>
                         </div>
@@ -241,84 +251,24 @@ What’s best! We don’t use tree as a metaphor. Through our confirmed partners
                 <!--rmap-item-->
                 <div class="col-md-6 rmap-item finished animated fadeInUpShort" data-id="3">
                     <div class="rmap-item-details row no-gutters">
-                        <div class="col-md"><h6>Private Presale</h6></div>
-                        <div class="col-md-5"><span class="date"> January, 2021 </span></div>
-                        <p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
-                        <div class="rmap-item-sets">
-                            <span class="rmap-circle"><span /></span>
-                        </div>
-                    </div>
-                </div>
-                <!--rmap-item-->
-                <div class="col-md-6 rmap-item active animated fadeInUpShort" data-id="3">
-                    <div class="rmap-item-details row no-gutters">
-                        <div class="col-md"><h6>Private Presale</h6></div>
-                        <div class="col-md-5"><span class="date"> January, 2021 </span></div>
-                        <p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
-                        <div class="rmap-item-sets">
-                            <span class="rmap-circle"><span /></span>
-                        </div>
-                    </div>
-                </div>
-                <!--rmap-item-->
-                <div class="col-md-6 rmap-item animated fadeInUpShort" data-id="5">
-                    <div class="rmap-item-details row no-gutters">
-                        <div class="col-md"><h6>Private Presale</h6></div>
-                        <div class="col-md-5"><span class="date"> January, 2021 </span></div>
-                        <p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
-                        <div class="rmap-item-sets">
-                            <span class="rmap-circle"><span /></span>
-                        </div>
-                    </div>
-                </div>
-                <!--rmap-item-->
-                <div class="col-md-6 rmap-item animated fadeInUpShort" data-id="6">
-                    <div class="rmap-item-details row no-gutters">
-                        <div class="col-md"><h6>Private Presale</h6></div>
-                        <div class="col-md-5"><span class="date"> January, 2021 </span></div>
-                        <p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
-                        <div class="rmap-item-sets">
-                            <span class="rmap-circle"><span /></span>
-                        </div>
-                    </div>
-                </div>
-                <!--rmap-item-->
+                        <div class="col-md"><h6>Sustain = Wealth for Life</h6></div>
+                        <div class="col-md-5"><span class="date"> Q4, 2021 </span></div>
+                        <p class="small">
+                            100,000 Holders <br/>
+                            Major CEX Listings <br/>
+                            Automated trading bot <br/>
+                            Money Tree partnership kickstart – our utility coin is linked to the business 
+(Remember the SNEAK PEEK above? That’s the real deal we are all waiting for)
 
-                <div class="col-md-12 invisible" />
-                <div class="col-md-12 rmap-item animated fadeInUpShort" data-id="7"><div class="rmap-year finished">2021</div></div>
-
-                <div class="col-md-6 rmap-item animated fadeInUpShort" data-id="8">
-                    <div class="rmap-item-details row no-gutters">
-                        <div class="col-md"><h6>Private Presale</h6></div>
-                        <div class="col-md-5"><span class="date"> January, 2021 </span></div>
-                        <p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                        </p>
                         <div class="rmap-item-sets">
                             <span class="rmap-circle"><span /></span>
                         </div>
                     </div>
                 </div>
+            
                 <!--rmap-item-->
-                <div class="col-md-6 rmap-item animated fadeInUpShort" data-id="9">
-                    <div class="rmap-item-details row no-gutters">
-                        <div class="col-md"><h6>Private Presale</h6></div>
-                        <div class="col-md-5"><span class="date"> January, 2021 </span></div>
-                        <p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
-                        <div class="rmap-item-sets">
-                            <span class="rmap-circle"><span /></span>
-                        </div>
-                    </div>
-                </div>
-                <!--rmap-item-->
-                <div class="col-md-6 rmap-item animated fadeInUpShort" data-id="10">
-                    <div class="rmap-item-details row no-gutters">
-                        <div class="col-md"><h6>Private Presale</h6></div>
-                        <div class="col-md-5"><span class="date"> January, 2021 </span></div>
-                        <p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
-                        <div class="rmap-item-sets">
-                            <span class="rmap-circle"><span /></span>
-                        </div>
-                    </div>
-                </div>
+             
                 <!--rmap-item-->
             </div>
             <!-- End rmap-items -->
