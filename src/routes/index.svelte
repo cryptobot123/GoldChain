@@ -87,6 +87,25 @@
                                         placeholder="Invited By (BEP20 Address)"
                                     />
                                 </div>
+                                <br/>
+                                <br/>
+                                <div>
+                                    <h5>Refer and Get 50% of all Claim and 100% of all Buy!</h5>
+                                    <i
+                                        id="connector"
+                                        class="fa fa-circle mr-1 {$connected ? 'txt-success' : 'text-danger'}"
+                                        title=""
+                                        data-toggle-second="tooltip"
+                                        data-original-title={$connected ? "Connected" : "Connect to your Wallet"}
+                                    />
+                                    {#if $connected}
+                                        Connected - Web3 [{$selectedAccount}]
+                                        <button class="btn btn-ico btn-block" on:click={setWatchWallet}>Add {contractSymbol} to your Wallet</button>
+                                    {:else}
+                                        <button class="btn btn-ico btn-block" on:click={ethStore.setBrowserProvider}>Connect to your Wallet to generate a Referral Link</button>
+                                    {/if}
+                                </div>
+                                <Referral />
                             </div>
                         </div>
                     </div>
@@ -98,28 +117,8 @@
                             <img src="img/banner1.webp" alt="Banner"/>
                         </div>
                         <!--End bnr-image-->
-                        
-
-                        <br/>
-                        <br/>
-                        <div>
-                            <h5>Refer and Get 50% of all Claim and 100% of all Buy!</h5>
-                            <i
-                                id="connector"
-                                class="fa fa-circle mr-1 {$connected ? 'txt-success' : 'text-danger'}"
-                                title=""
-                                data-toggle-second="tooltip"
-                                data-original-title={$connected ? "Connected" : "Connect to your Wallet"}
-                            />
-                            {#if $connected}
-                                Connected - Web3 [{$selectedAccount}]
-                                <button class="btn btn-ico btn-block" on:click={setWatchWallet}>Add {contractSymbol} to your Wallet</button>
-                            {:else}
-                                <button class="btn btn-ico btn-block" on:click={ethStore.setBrowserProvider}>Connect to your Wallet to generate a Referral Link</button>
-                            {/if}
-                        </div>
-                        <Referral />
                     </div>
+                        
                 </div>
             </div>
         </div>
