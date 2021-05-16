@@ -77,7 +77,7 @@
                                 <BuyToken referralAddress={validReferralAddress} />
                                 <br/>
                                 <br/>
-                                <h5>Invited By</h5>
+                                <h5>Please enter the wallet address of your Referer</h5>
                                 <div class="form-group">
                                     <input
                                         class={"form-control ico-form"}
@@ -91,6 +91,7 @@
                                 <br/>
                                 <div>
                                     <h5>Refer and Get 50% of all Claim and 100% of all Buy!</h5>
+                                    <p>* You must have GoldChain in your BEP20 Wallet to receive referral reward</p>
                                     <i
                                         id="connector"
                                         class="fa fa-circle mr-1 {$connected ? 'txt-success' : 'text-danger'}"
