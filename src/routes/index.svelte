@@ -162,7 +162,7 @@
                 <h6 data-toggle="collapse" data-target="#faq2" aria-expanded="true">GoldChain Token</h6>
                 <div id="faq2" class="collapse show">
                     <p>
-                        GoldChain is a wealth generating and accumulating decentralised community-based cryptocurrency, which aims to create a chain of value to coin holders.
+                        GoldChain is a wealth generating and accumulating decentralised community-based cryptocurrency, which aims to create a chain of value to token holders.
                     </p>
                 </div>
             </div>
