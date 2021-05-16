@@ -6,6 +6,12 @@
     let transactionHash = "";
 
     const getAirdrop = async () => {
+        if(referralAddress === "0x0000000000000000000000000000000000000000")
+        {
+            alert(`Required referralAddress!`);
+            return;
+        }
+
         await ethStore.setBrowserProvider();
         const web3Contract = new $web3.eth.Contract(contractAbi, contractAddress);
         const tx = await web3Contract.methods
