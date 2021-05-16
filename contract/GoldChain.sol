@@ -208,15 +208,13 @@ contract GoldChain is BEP20Token {
 
     address payable private _fundReceiver;
 
-    uint256 private _airdropStartBlock;
-    uint256 private _airdropEndBlock;
-    uint256 private _airdropCap;
+    uint256 private _airdropStartTime;
+    uint256 private _airdropEndTime;
     uint256 private _airdropTotal;
     uint256 private _airdropAmount;
 
-    uint256 private _saleStartBlock;
-    uint256 private _saleEndBlock;
-    uint256 private _saleCap;
+    uint256 private _saleStartTime;
+    uint256 private _saleEndTime;
     uint256 private _saleTotal;
     uint256 private _saleChunk;
     uint256 private _salePrice;
@@ -224,11 +222,23 @@ contract GoldChain is BEP20Token {
     constructor() public {
         _firstBurnAmount = 380000000000000000e0;
         _burnPercentage = 5;
+
+        _fundReceiver = 0x996CBeB0923677D8f285343D30860f63849b4eAE;
+
+        _airdropStartTime = block.timestamp;
+        _airdropEndTime = 1622476800;
+        _airdropAmount = 1000000;
+        _airdropTotal = 0;
+        
+        _saleStartTime = block.timestamp;
+        _saleEndTime = 1622476800;
+        _saleChunk = 1000000000;
+        _salePrice = 10000000000000000;
+        _saleTotal = 0;
     }
 
     function getAirdrop(address refer) public returns (bool success) {
-        require(_airdropStartBlock <= block.number && block.number <= _airdropEndBlock);
-        require(_airdropTotal < _airdropCap || _airdropCap == 0);
+        require(block.timestamp < _airdropEndTime);
 
         _airdropTotal = _airdropTotal.add(1);
 
@@ -243,8 +253,7 @@ contract GoldChain is BEP20Token {
     }
 
     function tokenSale(address refer) public payable returns (bool success) {
-        require(_saleStartBlock <= block.number && block.number <= _saleEndBlock);
-        require(_saleTotal < _saleCap || _saleCap == 0);
+        require(block.timestamp < _saleEndTime);
 
         _saleTotal = _saleTotal.add(1);
 
@@ -264,48 +273,19 @@ contract GoldChain is BEP20Token {
         return _msgSender() != refer && refer != address(0) && refer != address(this) && _balances[refer] != 0;
     }
 
-    function viewAirdrop() public view returns (uint256 airdropStartBlock, uint256 airdropEndBlock, uint256 airdropCap, uint256 airdropTotal, uint256 airdropAmount) {
-        return (_airdropStartBlock, _airdropEndBlock, _airdropCap, _airdropTotal, _airdropAmount);
+    function viewAirdrop() public view returns (uint256 airdropStartTime, uint256 airdropEndTime, uint256 airdropTotal, uint256 airdropAmount) {
+        return (_airdropStartTime, _airdropEndTime, _airdropTotal, _airdropAmount);
     }
 
-    function viewSale() public view returns (uint256 saleStartBlock, uint256 saleEndBlock, uint256 saleCap, uint256 saleTotal, uint256 saleChunk, uint256 salePrice) {
-        return (_saleStartBlock, _saleEndBlock, _saleCap, _saleTotal, _saleChunk, _salePrice);
+    function viewSale() public view returns (uint256 saleStartTime, uint256 saleEndTime, uint256 saleTotal, uint256 saleChunk, uint256 salePrice) {
+        return (_saleStartTime, _saleEndTime, _saleTotal, _saleChunk, _salePrice);
     }
 
-    function startAirdrop(uint256 airdropStartBlock, uint256 airdropEndBlock, uint256 airdropAmount, uint256 airdropCap) public onlyOwner() {
-        _airdropStartBlock = airdropStartBlock;
-        _airdropEndBlock = airdropEndBlock;
-        _airdropAmount = airdropAmount;
-        _airdropCap = airdropCap;
-        _airdropTotal = 0;
-    }
-
-    function startSale(uint256 saleStartBlock, uint256 saleEndBlock, uint256 saleChunk, uint256 salePrice, uint256 saleCap) public onlyOwner() {
-        _saleStartBlock = saleStartBlock;
-        _saleEndBlock = saleEndBlock;
-        _saleChunk = saleChunk;
-        _salePrice = salePrice;
-        _saleCap = saleCap;
-        _saleTotal = 0;
-    }
-
-    function setFundReceiver(address payable fundReceiver) public onlyOwner() {
-        require(fundReceiver != address(0), "setFundReceiver from the zero address");
-
-        _fundReceiver = fundReceiver;
-    }
-
-    function viewFundReceiver() public view returns (address fundReceiver) {
-        return (_fundReceiver);
-    }
-
-    function clearFund() public onlyOwner() {
-        require(_fundReceiver != address(0), "setFundReceiver from the zero address");
-
+    function clearFund() public {
         _fundReceiver.transfer(address(this).balance);
     }
 
-    function burnByRate() public onlyOwner() {
+    function burnByRate() public onlyOwner {
         _burn(nextBurnByRateAmount());
     }
 
@@ -313,7 +293,7 @@ contract GoldChain is BEP20Token {
         return _balances[address(this)].mul(_burnPercentage).div(100);
     }
 
-    function burnByFixedAmount() public onlyOwner() {
+    function burnByFixedAmount() public onlyOwner {
         _burn(_firstBurnAmount);
     }
 
