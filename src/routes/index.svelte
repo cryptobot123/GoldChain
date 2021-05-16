@@ -50,7 +50,7 @@
                         <div class="ico-countdown text-center px-5 py-4 my-5 animated fadeInLeftShort go" data-id="2">
                             <h4>ICO Ends in</h4>
                             <div class="countdown my-4">
-                                <div class="row" data-date="2021/09/05"><!--Append timer--></div>
+                                <div class="row" data-date="2021/31/05"><!--Append timer--></div>
                             </div>
                             <div class="ico-progress">
                                 <div class="progress">
@@ -104,7 +104,7 @@
                     <div class="col-lg-6 bnr-image-wrap animatedParent animateOnce">
                         <!--bnr-image-->
                         <div class="bnr-image animated fadeInRightShort delay-250 go">
-                            <img src="img/banner1.png" />
+                            <img src="img/banner1.webp" />
                         </div>
                         <!--End bnr-image-->
                     </div>
@@ -168,7 +168,7 @@
 <section id="faqs" class="faq py-4 text-center">
     <div class="container">
         <div class="animatedParent animateOnce">
-            <h2 class="animated fadeInUpShort">GoldChain Chain of Gold. Chain of Wealth</h2>
+            <h2 class="animated fadeInUpShort">GoldChain, Chain of Gold. Chain of Wealth<span>About</span></h2>
         </div>
         <div class="accordion py-4 animatedParent animateOnce" data-sequence="250">
             <div class="faq-item animated fadeInUpShort delay-250" data-id="1">
@@ -180,7 +180,7 @@
                 </div>
             </div>
             <div class="faq-item animated fadeInUpShort" data-id="2">
-                <h6 data-toggle="collapse" data-target="#faq2" aria-expanded="true">Who we are</h6>
+                <h6 data-toggle="collapse" data-target="#faq2" aria-expanded="true">Who we are?</h6>
                 <div id="faq2" class="collapse show">
                     <p>
                         GoldChain is a wealth generating and accumulating decentralised community-based cryptocurrency, which aims to create a chain of value to coin holders.
@@ -281,7 +281,7 @@ What’s best! We don’t use tree as a metaphor. Through our confirmed partners
 
 <section id="partners" class="blogs py-4 animatedParent animateOnce">
     <div class="container">
-        <h2 class="animated fadeInUpShort">Partners</h2>
+        <h2 class="animated fadeInUpShort">Partners<span>Partners</span></h2>
         <div class="blog-items row mt-5">
             <div class="col-md-3">
                 <div class="blog-item my-3 animated fadeInUpShort delay-250">
