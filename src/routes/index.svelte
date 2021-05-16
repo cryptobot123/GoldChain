@@ -295,7 +295,7 @@
 <section id="partners" class="blogs py-4 animatedParent animateOnce">
     <div class="container">
         <h2 class="animated fadeInUpShort">Partners in Wealth</h2>
-        <div class="blog-items row mt-5">
+        <div class="blog-items row mt-5" style="text-align:center">
             <div class="col-md-3">
                 <div class="blog-item my-3 animated fadeInUpShort delay-250">
                     <div class="sqr-img"> <img src="img/MH.jpg" style="height:150px" alt="blog1"></div>
@@ -303,7 +303,7 @@
                         <div class="col-6 name"></div>
                         <div class="col-6 date text-right font-italic"> </div>
                     </div>
-                    <h5> <a href="https://moonhunter.net">MoonHunter</a> </h5>
+                    <h5> <a href="https://moonhunter.net" target="_blank">MoonHunter</a> </h5>
                 </div>
             </div>
             <div class="col-md-3">
@@ -313,7 +313,7 @@
                         <div class="col-6 name"></div>
                         <div class="col-6 date text-right font-italic"> </div>
                     </div>
-                    <h5> <a href="https://hamiltonknight.com.au/">Hamilton Knight Group</a> </h5>
+                    <h5> <a href="https://hamiltonknight.com.au/" target="_blank">Hamilton Knight Group</a> </h5>
                     
                 </div>
             </div>
@@ -325,7 +325,7 @@
                         <div class="col-6 name"></div>
                         <div class="col-6 date text-right font-italic"> </div>
                     </div>
-                    <h5> <a href="https://blueseed.group">Blueseed Australia</a> </h5>
+                    <h5> <a href="https://blueseed.group" target="_blank">Blueseed Australia</a> </h5>
                 </div>
             </div>
 
@@ -336,7 +336,7 @@
                         <div class="col-6 name"></div>
                         <div class="col-6 date text-right font-italic"> </div>
                     </div>
-                    <h5> <a href="https://blueskytravelvietnam.com">Blueskytravel</a> </h5>
+                    <h5> <a href="https://blueskytravelvietnam.com" target="_blank">Blue Sky Travel</a> </h5>
                 </div>
             </div>           
             
