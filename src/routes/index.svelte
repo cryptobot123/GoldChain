@@ -118,58 +118,6 @@
 </section>
 <!-- End features Section -->
 
-<!-- End features Section -->
-<section id="services" class="services pt-5 text-center">
-    <div class="container">
-        <div class="animatedParent animateOnce">
-            <h2 class="animated fadeInUpShort">In short, here is the Deal!</h2>
-            <div class="service-des py-1 animated fadeInUpShort delay-250">
-                <p>
-
-                </p>
-            </div>
-        </div>
-        <div class="service-items row py-2  animatedParent animateOnce" data-sequence="250">
-
-            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="1">
-                <div class="icon"><img src="img/ftIcon-4.webp" alt="Chain of Gold. Chain of Wealth" /></div>
-                <h5 class="pt-5">Wealth Accumulation</h5>
-                <p class="small">Active token holders will be invited to special groups to enjoy superior trading calls, quality knowledge sharing and skill upgrading</p>
-            </div>
-            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="2">
-                <div class="icon"><img src="img/ftIcon-5.webp" alt="Money Tree Partnership" /></div>
-                <h5 class="pt-5">Money Tree Partnership</h5>
-                <p class="small">Faciliate lucrative business deals.</p>
-                <p class="small">More private sales and more airdrops.</p>
-                <p class="small">Potential profit sharing. A real Launch Pad.</p>
-            </div>
-            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="3">
-                <div class="icon"><img src="img/ftIcon-2.webp" alt="Decentralised" /></div>
-                <h5 class="pt-5">Decentralised</h5>
-                <p class="small">100% community-powered</p>
-                <p class="small">Fair launch, developers hold no token</p>
-            </div>
-            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="4">
-                <div class="icon"><img src="img/ftIcon-3.webp" alt="Safe and sound" /></div>
-                <h5 class="pt-5">Safe and sound</h5>
-                <p class="small">Contract locked, source code unchangeable</p>
-                <p class="small">Liquidity locked, unruggable</p>
-            </div>
-            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="5">
-                <div class="icon"><img src="img/ftIcon-1.webp" alt="Mobile app" /></div>
-                <h5 class="pt-5">Mobile App</h5>
-                <p class="small">Coming soon...</p>
-            </div>
-            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="6">
-                <div class="icon"><img src="img/ftIcon-6.webp" alt="Multicurrency Wallet" /></div>
-                <h5 class="pt-5">Multicurrency Wallet</h5>
-                <p class="small">Coming soon...</p>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End features Section -->
-
 <section id="faqs" class="faq py-4 text-center">
     <div class="container">
         <div class="animatedParent animateOnce">
@@ -213,6 +161,59 @@
     </div>
 </section>
 <!-- End features Section -->
+
+<!-- End features Section -->
+<section id="services" class="services pt-5 text-center">
+    <div class="container">
+        <div class="animatedParent animateOnce">
+            <h2 class="animated fadeInUpShort">In short, here is the Deal!</h2>
+            <div class="service-des py-1 animated fadeInUpShort delay-250">
+                <p>
+
+                </p>
+            </div>
+        </div>
+        <div class="service-items row py-2  animatedParent animateOnce" data-sequence="250">
+
+            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="1">
+                <div class="icon"><img src="img/ftIcon-4.webp" alt="Chain of Gold. Chain of Wealth" /></div>
+                <h5 class="pt-5">Wealth Accumulation</h5>
+                <p class="small">Active token holders will be invited to special groups to enjoy superior trading calls, quality knowledge sharing and skill upgrading.</p>
+            </div>
+            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="2">
+                <div class="icon"><img src="img/ftIcon-5.webp" alt="Money Tree Partnership" /></div>
+                <h5 class="pt-5">Money Tree Partnership</h5>
+                <p class="small">Faciliate lucrative business deals.</p>
+                <p class="small">More private sales and more airdrops.</p>
+                <p class="small">Potential profit sharing. A real Launch Pad.</p>
+            </div>
+            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="3">
+                <div class="icon"><img src="img/ftIcon-2.webp" alt="Decentralised" /></div>
+                <h5 class="pt-5">Decentralised</h5>
+                <p class="small">100% community-powered</p>
+                <p class="small">Fair launch, developers hold no token</p>
+            </div>
+            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="4">
+                <div class="icon"><img src="img/ftIcon-3.webp" alt="Safe and sound" /></div>
+                <h5 class="pt-5">Safe and sound</h5>
+                <p class="small">Contract locked, source code unchangeable</p>
+                <p class="small">Liquidity locked, unruggable</p>
+            </div>
+            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="5">
+                <div class="icon"><img src="img/ftIcon-1.webp" alt="Mobile app" /></div>
+                <h5 class="pt-5">Mobile App</h5>
+                <p class="small">Coming soon...</p>
+            </div>
+            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="6">
+                <div class="icon"><img src="img/ftIcon-6.webp" alt="Multicurrency Wallet" /></div>
+                <h5 class="pt-5">Multicurrency Wallet</h5>
+                <p class="small">Coming soon...</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End features Section -->
+
 <!-- roadmap Section -->
 <section id="roadmap" class="roadmap py-4">
     <div class="container">
@@ -224,15 +225,15 @@
             <div class="rmap-items row no-gutters animatedParent animateOnce" data-sequence="250">
                 <div class="col-md-6 rmap-item finished animated active fadeInUpShort delay-250" data-id="1">
                     <div class="rmap-item-details row no-gutters">
-                        <div class="col-md"><h6>Wealth Creation into Phase 1: Wealth Creation</h6></div>
+                        <div class="col-md"><h6>Phase 1: Wealth Creation</h6></div>
                         <div class="col-md-5"><span class="date"> Q2, 2021 </span></div>
                         <p class="small">
-                            Website Launch <br/>
-                            Social Media: Telegram, Twitter, Facebook, Instagram, Tiktok, Discord, Subreddit <br/>
-                            Pancake Swap Listing <br/>
-                            CoinGecko Listing <br/>
-                            CoinMarketCap Listing <br/>
-                            5,000 Holders <br/>
+                            Website Launch<br/>
+                            Airdrop and Public Sale<br/>
+                            Social Media: Telegram, Twitter, Instagram, Tiktok, Subreddit <br/>
+                            Marketing Campaign <br/>
+                            PancakeSwap Listing<br/>
+                            1,000 Holders <br/>
                         </p>
                         <div class="rmap-item-sets">
                             <span class="rmap-circle"></span>
@@ -242,16 +243,17 @@
                 <!--rmap-item-->
                 <div class="col-md-6 rmap-item finished animated fadeInUpShort" data-id="2">
                     <div class="rmap-item-details row no-gutters">
-                        <div class="col-md"><h6>Wealth Accumulation into Phase 2: Wealth Accumulation</h6></div>
+                        <div class="col-md"><h6>Phase 2: Wealth Accumulation</h6></div>
                         <div class="col-md-5"><span class="date"> Q3, 2021 </span></div>
                         <p class="small">
-                            Liquidity Holder <br/>
+                            Open Wealth Hunting Group for active Token Holders <br/>
+                            CoinGecko Listing <br/>
+                            CoinMarketCap Listing <br/>
                             Initial CEX Listings <br/>
-                            Pancake Swap Listing <br/>
-                            Robot VIP Group for crypto trading <br/>
-                            Celeb Marketing Partnerships <br/>
-                            Coin Design Campaign for <br/>
-                            50,000 Holders <br/>
+                            Celebrity & Brand Partnerships <br/>
+                            Introduce lucrative business deals and more airdrops<br/>
+                            Coin Design Campaign for loyalty members
+                            5,000 Holders <br/>
                         </p>
                         <div class="rmap-item-sets">
                             <span class="rmap-circle"></span>
@@ -261,12 +263,13 @@
                 <!--rmap-item-->
                 <div class="col-md-6 rmap-item finished animated fadeInUpShort" data-id="3">
                     <div class="rmap-item-details row no-gutters">
-                        <div class="col-md"><h6>Wealth for life into Phase 3: Wealth Preservation</h6></div>
+                        <div class="col-md"><h6>Phase 3: Wealth Preservation</h6></div>
                         <div class="col-md-5"><span class="date"> Q4, 2021 </span></div>
                         <p class="small">
-                            100,000 Holders <br/>
+                            10,000 Holders <br/>
                             Major CEX Listings <br/>
-                            Automated trading bot <br/>
+                            Trading Automation <br/>
+                            Research and application of AI and Deep Learning in trading<br/>
                             Money Tree partnership kickstart – our utility coin is linked to the business 
                                 (Remember the SNEAK PEEK above? That’s the real deal we are all waiting for)
                         </p>
@@ -283,9 +286,6 @@
                         <p class="small">
                             Utility coin linked to business.  <br/>
                             Stay tune for more exciting activities!!!<br/>
-                            <br/>
-                            <br/>
-                            <br/>
                             <br/>
                             <br/>
                             <br/>
@@ -310,17 +310,7 @@
     <div class="container">
         <h2 class="animated fadeInUpShort">Partners in Wealth</h2>
         <div class="blog-items row mt-5" style="text-align:center">
-            <div class="col-md-3">
-                <div class="blog-item my-3 animated fadeInUpShort delay-250">
-                    <div class="sqr-img"> <img src="img/MH.jpg" style="height:150px" alt="blog1"></div>
-                    <div class="blog-meta row small py-3">
-                        <div class="col-6 name"></div>
-                        <div class="col-6 date text-right font-italic"> </div>
-                    </div>
-                    <h5> <a href="https://moonhunter.net" target="_blank">MoonHunter</a> </h5>
-                </div>
-            </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <div class="blog-item my-3 animated fadeInUpShort delay-250">
                     <div class="sqr-img"> <img src="img/HKG.png" style="height:150px" alt="blog1"></div>
                     <div class="blog-meta row small py-3">
@@ -332,7 +322,7 @@
                 </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <div class="blog-item my-3 animated fadeInUpShort delay-250">
                     <div class="sqr-img"> <img src="img/blueseed-group-logo.png" style="height:150px" alt="blog1"></div>
                     <div class="blog-meta row small py-3">
@@ -343,7 +333,7 @@
                 </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <div class="blog-item my-3 animated fadeInUpShort delay-250">
                     <div class="sqr-img"> <img src="img/BlueSky.png" style="height:150px" alt="blog1"></div>
                     <div class="blog-meta row small py-3">
