@@ -116,6 +116,20 @@
                         <div class="bnr-image animated fadeInRightShort delay-250 go">
                             <img src="img/banner1.webp" alt="Banner"/>
                         </div>
+                        <div class="" style="margin-left: 80px;">
+                            <div class="social-links row" style="margin-top: 100px;font-size: 30px;margin-left:3px;color:white;">Follow Us:</div>
+                            <div class="social-links row">
+                                 <div>
+                                    <a class="col" href="https://twitter.com/GoldChainToken" style="font-size: 20px;"> <i class="fab fa-twitter" /><span style="margin-left:8px;"> Twitter</span></a>
+                                </div>
+                            </div>
+                            <div class="social-links row">
+                                <div>
+                                   <a class="col" href="https://t.me/goldchaingroup" style="font-size: 20px;"> <i class="fab fa-telegram"></i><span style="margin-left:8px;"> Telegram</span></a>
+                               </div>
+                           </div>
+   
+                        </div>
                         <!--End bnr-image-->
                     </div>
                         
@@ -362,30 +376,20 @@
 <!-- faq Section -->
 <!-- End faq Section -->
 <!-- contact Section -->
+
+
+
+    <!--End bnr-image-->
+
 <section id="contact" class="contact py-4 animatedParent animateOnce">
     <div class="container">
         <h2 class="animated fadeInUpShort">Get In Touch <span>Contact</span></h2>
-        <div class="row py-4 animated fadeInUpShort delay-500">
-            <div class="contact-form col-lg-12">
-                <form id="contactForm" action="mail/contact.php" method="post">
-                    <div class="formReturn" />
-                    <div class="form-group">
-                        <input name="contactName" type="text" class="form-control ico-form" placeholder="Name" required />
-                    </div>
-                    <div class="form-group">
-                        <input name="contactEmail" type="email" class="form-control ico-form" placeholder="Email" required />
-                    </div>
-                    <div class="form-group">
-                        <input name="contactSubject" type="text" class="form-control ico-form" placeholder="Subject" required />
-                    </div>
-                    <div class="form-group">
-                        <textarea name="contactName" class="form-control ico-form" rows="3" required placeholder="Brief" />
-                    </div>
-
-                    <button type="submit" class="btn btn-ico btn-block my-5">Submit</button>
-                </form>
-            </div>
-        </div>
+        <h4 style="text-align: center;" class="animated fadeInUpShort">
+            <a class="col" href="https://twitter.com/GoldChainToken" style="font-size: 20px;"> <i class="fab fa-twitter" /><span style="margin-left:8px;"> Twitter</span></a>
+        </h4>
+        <h4 style="text-align: center;" class="animated fadeInUpShort">
+            <a class="col" href="https://t.me/goldchaingroup" style="font-size: 20px;"> <i class="fab fa-telegram"></i><span style="margin-left:8px;"> Telegram</span></a>
+        </h4>
     </div>
 </section>
 <!-- End contact Section -->
