@@ -104,7 +104,7 @@
                     <div class="col-lg-6 bnr-image-wrap animatedParent animateOnce">
                         <!--bnr-image-->
                         <div class="bnr-image animated fadeInRightShort delay-250 go">
-                            <img src="img/banner1.webp" />
+                            <img src="img/banner1.webp" alt="Banner"/>
                         </div>
                         <!--End bnr-image-->
                     </div>
@@ -131,23 +131,37 @@
         </div>
         <div class="service-items row py-2  animatedParent animateOnce" data-sequence="250">
 
-            <div class="col-sm-6 col-md-3 py-5 animated fadeInUpShort delay-250" data-id="2">
-                <div class="icon"><img src="img/ftIcon-2.webp" alt="Mobile app" /></div>
-                <h5 class="pt-5">100% Community Powered</h5>
-                <p class="small">No Dev coin dumping</p>
+            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="1">
+                <div class="icon"><img src="img/ftIcon-4.webp" alt="Chain of Gold. Chain of Wealth" /></div>
+                <h5 class="pt-5">Wealth Accumulation</h5>
+                <p class="small">Active token holders will be invited to special groups to enjoy superior trading calls, quality knowledge sharing and skill upgrading</p>
             </div>
-            <div class="col-sm-6 col-md-3 py-5 animated fadeInUpShort delay-250" data-id="3">
-                <div class="icon"><img src="img/ftIcon-3.webp" alt="Mobile app" /></div>
+            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="2">
+                <div class="icon"><img src="img/ftIcon-5.webp" alt="Money Tree Partnership" /></div>
+                <h5 class="pt-5">Money Tree Partnership</h5>
+                <p class="small">Faciliate lucrative business deals.</p>
+                <p class="small">More private sales and more airdrops.</p>
+                <p class="small">Potential profit sharing. A real Launch Pad.</p>
+            </div>
+            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="3">
+                <div class="icon"><img src="img/ftIcon-2.webp" alt="Decentralised" /></div>
+                <h5 class="pt-5">Decentralised</h5>
+                <p class="small">100% community-powered</p>
+                <p class="small">Fair launch, developers hold no token</p>
+            </div>
+            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="4">
+                <div class="icon"><img src="img/ftIcon-3.webp" alt="Safe and sound" /></div>
                 <h5 class="pt-5">Safe and sound</h5>
-                <p class="small">Smart contract. Immutable source code.</p>
+                <p class="small">Contract locked, source code unchangeable</p>
+                <p class="small">Liquidity locked, unruggable</p>
             </div>
-            <div class="col-sm-6 col-md-3 py-5 animated fadeInUpShort delay-250" data-id="4">
-                <div class="icon"><img src="img/ftIcon-4.webp" alt="Mobile app" /></div>
-                <h5 class="pt-5">Chain of Gold. Chain of Wealth</h5>
-                <p class="small">By holding GoldChain, you are doing your part to create, build, grow and accumulate wealth for life with a juicy airdrop right from the start.</p>
+            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="5">
+                <div class="icon"><img src="img/ftIcon-1.webp" alt="Mobile app" /></div>
+                <h5 class="pt-5">Mobile App</h5>
+                <p class="small">Coming soon...</p>
             </div>
-            <div class="col-sm-6 col-md-3 py-5 animated fadeInUpShort delay-250" data-id="6">
-                <div class="icon"><img src="img/ftIcon-6.webp" alt="Mobile app" /></div>
+            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="6">
+                <div class="icon"><img src="img/ftIcon-6.webp" alt="Multicurrency Wallet" /></div>
                 <h5 class="pt-5">Multicurrency Wallet</h5>
                 <p class="small">Coming soon...</p>
             </div>
@@ -166,7 +180,7 @@
                 <h6 class="collapsed" data-toggle="collapse" data-target="#faq1" aria-expanded="true">Before we begin, why are we here?</h6>
                 <div id="faq1" class="collapse">
                     <p>
-                        We all want to be rich. We all want to taste the sweetness of the rewards of being rich. Or even if you are already wealthy; more than that, you want to enjoy the sustainable wealth. No matter where we are, climbing that money tree, we all want to have the chain of wealth that keeps on generating and accumulating value while we are doing our stuff. (Whatever that “stuff” is!)
+                        We all want to be rich. We all want to taste the sweetness of the rewards of being rich. Or even if you are already wealthy; more than that, you want to enjoy the sustainable wealth. No matter where we are, climbing that money tree, we all want to have the chain of wealth that keeps on generating and accumulating value while we are doing our stuff. Whatever that “stuff” is!
                     </p>
                 </div>
             </div>
@@ -180,8 +194,8 @@
             </div>
 
             <div class="faq-item animated fadeInUpShort" data-id="4">
-                <h6 class="collapsed" data-toggle="collapse" data-target="#faq4" aria-expanded="true">Do you know that there is the term “money tree” for a reason?</h6>
-                <div id="faq4" class="collapse">
+                <h6 class="collapsed" data-toggle="collapse" data-target="#faq3" aria-expanded="true">Do you know that there is the term “money tree” for a reason?</h6>
+                <div id="faq3" class="collapse">
                     <p>
                         Tree grows leaves. Leaves pull in CO2 and release Oxygen in the process (Sure! Sure! Primary school knowledge, who doesn’t know that!). Think about creating and accumulating wealth as our money trees grow leaves. One leaf does not mean much, yet a tree full of leaves and a forest full of trees will create and accumulate worthwhile value. 
                     </p>
