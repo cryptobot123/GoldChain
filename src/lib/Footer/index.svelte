@@ -25,7 +25,7 @@
         </div>
     </div>
     <div class="footer-botom py-4 ">
-        <div class="container">Thanks for coming. © 2021 Gold Chain</div>
+        <div class="container">In Crypto We Trust. © 2021 Gold Chain</div>
     </div>
 </footer>
 <!--End Footer-->
