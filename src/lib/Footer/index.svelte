@@ -15,6 +15,7 @@
                     <a class="col" href="#"> <i class="fab fa-pinterest-p" /> </a>
                     <a class="col" href="#"> <i class="fab fa-youtube" /> </a>
                     <a class="col" href="#"> <i class="fab fa-instagram" /> </a>
+                    <a class="col" href="#"> <i class="fab fa-telegram"></i></a>
                 </div>
             </div>
             <!--end social-->

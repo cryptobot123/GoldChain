@@ -122,7 +122,7 @@
 <section id="services" class="services pt-5 text-center">
     <div class="container">
         <div class="animatedParent animateOnce">
-            <h2 class="animated fadeInUpShort">We ensure best services = In short, here is the Deal!</h2>
+            <h2 class="animated fadeInUpShort">In short, here is the Deal!</h2>
             <div class="service-des py-1 animated fadeInUpShort delay-250">
                 <p>
 
@@ -130,32 +130,23 @@
             </div>
         </div>
         <div class="service-items row py-2  animatedParent animateOnce" data-sequence="250">
-            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="1">
-                <div class="icon"><img src="img/ftIcon-1.webp" alt="Mobile app" /></div>
-                <h5 class="pt-5">Decentralised</h5>
-                <p class="small"></p>
-            </div>
-            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="2">
+
+            <div class="col-sm-6 col-md-3 py-5 animated fadeInUpShort delay-250" data-id="2">
                 <div class="icon"><img src="img/ftIcon-2.webp" alt="Mobile app" /></div>
-                <h5 class="pt-5">No DEV coin dumping. 100% community powered</h5>
-                <p class="small"></p>
+                <h5 class="pt-5">100% Community Powered</h5>
+                <p class="small">No Dev coin dumping</p>
             </div>
-            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="3">
+            <div class="col-sm-6 col-md-3 py-5 animated fadeInUpShort delay-250" data-id="3">
                 <div class="icon"><img src="img/ftIcon-3.webp" alt="Mobile app" /></div>
                 <h5 class="pt-5">Safe and sound</h5>
                 <p class="small">Smart contract. Immutable source code.</p>
             </div>
-            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="4">
+            <div class="col-sm-6 col-md-3 py-5 animated fadeInUpShort delay-250" data-id="4">
                 <div class="icon"><img src="img/ftIcon-4.webp" alt="Mobile app" /></div>
                 <h5 class="pt-5">Chain of Gold. Chain of Wealth</h5>
                 <p class="small">By holding GoldChain, you are doing your part to create, build, grow and accumulate wealth for life with a juicy airdrop right from the start.</p>
             </div>
-            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="5">
-                <div class="icon"><img src="img/ftIcon-5.webp" alt="Mobile app" /></div>
-                <h5 class="pt-5">Credit Card Use</h5>
-                <p class="small">Coming soon...</p>
-            </div>
-            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="6">
+            <div class="col-sm-6 col-md-3 py-5 animated fadeInUpShort delay-250" data-id="6">
                 <div class="icon"><img src="img/ftIcon-6.webp" alt="Mobile app" /></div>
                 <h5 class="pt-5">Multicurrency Wallet</h5>
                 <p class="small">Coming soon...</p>
@@ -168,19 +159,19 @@
 <section id="faqs" class="faq py-4 text-center">
     <div class="container">
         <div class="animatedParent animateOnce">
-            <h2 class="animated fadeInUpShort">GoldChain, Chain of Gold. Chain of Wealth<span>About</span></h2>
+            <h2 class="animated fadeInUpShort">Chain of Gold. Chain of Wealth</h2>
         </div>
         <div class="accordion py-4 animatedParent animateOnce" data-sequence="250">
             <div class="faq-item animated fadeInUpShort delay-250" data-id="1">
                 <h6 class="collapsed" data-toggle="collapse" data-target="#faq1" aria-expanded="true">Before we begin, why are we here?</h6>
                 <div id="faq1" class="collapse">
                     <p>
-                        We all want to be rich. We all want to taste the sweetness of the rewards of being rich. Or even if you are already wealthy; more than that, you want to enjoy the sustainable wealth. No matter where we are, climbing that money tree, we all want to have the chain of wealth that keeps on generating and accumulating value while we are doing our stuff. Whatever that “stuff” is!
+                        We all want to be rich. We all want to taste the sweetness of the rewards of being rich. Or even if you are already wealthy; more than that, you want to enjoy the sustainable wealth. No matter where we are, climbing that money tree, we all want to have the chain of wealth that keeps on generating and accumulating value while we are doing our stuff. (Whatever that “stuff” is!)
                     </p>
                 </div>
             </div>
             <div class="faq-item animated fadeInUpShort" data-id="2">
-                <h6 data-toggle="collapse" data-target="#faq2" aria-expanded="true">Who we are?</h6>
+                <h6 data-toggle="collapse" data-target="#faq2" aria-expanded="true">GoldChain Token</h6>
                 <div id="faq2" class="collapse show">
                     <p>
                         GoldChain is a wealth generating and accumulating decentralised community-based cryptocurrency, which aims to create a chain of value to coin holders.
@@ -189,13 +180,18 @@
             </div>
 
             <div class="faq-item animated fadeInUpShort" data-id="4">
-                <h6 class="collapsed" data-toggle="collapse" data-target="#faq4" aria-expanded="true">Sneak peek!!! Do you know that there is the term “money tree” for a reason?</h6>
+                <h6 class="collapsed" data-toggle="collapse" data-target="#faq4" aria-expanded="true">Do you know that there is the term “money tree” for a reason?</h6>
                 <div id="faq4" class="collapse">
                     <p>
-                        Tree grows leaves. Leaves pull in CO2 and release Oxygen in the process (Sure! Sure! Primary school knowledge, who doesn’t know that!)
-Think about creating and accumulating wealth as our money trees grow leaves. One leaf does not mean much, yet a tree full of leaves and a forest full of trees will create and accumulate worthwhile value. 
-What’s best! We don’t use tree as a metaphor. Through our confirmed partnership program, coinholders are members of the community that will contribute to grow more trees for every more dollar we make. Our community prospers with GoldChain and the world we live in will be happier with more trees. We meant it when we said “money tree”; and do stay long enough to be a part of that. Guarantee, we will all feel better in this journey.
-
+                        Tree grows leaves. Leaves pull in CO2 and release Oxygen in the process (Sure! Sure! Primary school knowledge, who doesn’t know that!). Think about creating and accumulating wealth as our money trees grow leaves. One leaf does not mean much, yet a tree full of leaves and a forest full of trees will create and accumulate worthwhile value. 
+                    </p>
+                </div>
+            </div>
+            <div class="faq-item animated fadeInUpShort" data-id="4">
+                <h6 class="collapsed" data-toggle="collapse" data-target="#faq4" aria-expanded="true">Sneak peek!!!</h6>
+                <div id="faq4" class="collapse">
+                    <p>
+                        What’s best! We don’t use tree as a metaphor. Through our confirmed joint venture program, coinholders are members of the community that will contribute to grow more trees for every more dollar we make. Our community prospers with GoldChain and the world we live in will be happier with more trees. We meant it when we said “money tree”; and do stay long enough to be a part of that. Guarantee, we will all feel better in this journey.
                     </p>
                 </div>
             </div>
@@ -207,14 +203,14 @@ What’s best! We don’t use tree as a metaphor. Through our confirmed partners
 <section id="roadmap" class="roadmap py-4">
     <div class="container">
         <div class="animatedParent animateOnce">
-            <h2 class=" animated fadeInUpShort">Our Strategy and Project Plan <span>Road Map</span></h2>
+            <h2 class=" animated fadeInUpShort">Our Pathway together</h2>
         </div>
         <div class="rmap-wrap">
             <div class="animatedParent animateOnce"><div class="rmap-year finished animated fadeInUpShort">2021</div></div>
             <div class="rmap-items row no-gutters animatedParent animateOnce" data-sequence="250">
                 <div class="col-md-6 rmap-item finished animated active fadeInUpShort delay-250" data-id="1">
                     <div class="rmap-item-details row no-gutters">
-                        <div class="col-md"><h6>Launch = Wealth Creation</h6></div>
+                        <div class="col-md"><h6>Wealth Creation into Phase 1: Wealth Creation</h6></div>
                         <div class="col-md-5"><span class="date"> Q2, 2021 </span></div>
                         <p class="small">
                             Website Launch <br/>
@@ -225,14 +221,14 @@ What’s best! We don’t use tree as a metaphor. Through our confirmed partners
                             5,000 Holders <br/>
                         </p>
                         <div class="rmap-item-sets">
-                            <span class="rmap-circle"><span /></span>
+                            <span class="rmap-circle"></span>
                         </div>
                     </div>
                 </div>
                 <!--rmap-item-->
                 <div class="col-md-6 rmap-item finished animated fadeInUpShort" data-id="2">
                     <div class="rmap-item-details row no-gutters">
-                        <div class="col-md"><h6>Develop = Wealth Accumulation</h6></div>
+                        <div class="col-md"><h6>Wealth Accumulation into Phase 2: Wealth Accumulation</h6></div>
                         <div class="col-md-5"><span class="date"> Q3, 2021 </span></div>
                         <p class="small">
                             Liquidity Holder <br/>
@@ -244,31 +240,48 @@ What’s best! We don’t use tree as a metaphor. Through our confirmed partners
                             50,000 Holders <br/>
                         </p>
                         <div class="rmap-item-sets">
-                            <span class="rmap-circle"><span /></span>
+                            <span class="rmap-circle"></span>
                         </div>
                     </div>
                 </div>
                 <!--rmap-item-->
                 <div class="col-md-6 rmap-item finished animated fadeInUpShort" data-id="3">
                     <div class="rmap-item-details row no-gutters">
-                        <div class="col-md"><h6>Sustain = Wealth for Life</h6></div>
+                        <div class="col-md"><h6>Wealth for life into Phase 3: Wealth Preservation</h6></div>
                         <div class="col-md-5"><span class="date"> Q4, 2021 </span></div>
                         <p class="small">
                             100,000 Holders <br/>
                             Major CEX Listings <br/>
                             Automated trading bot <br/>
                             Money Tree partnership kickstart – our utility coin is linked to the business 
-(Remember the SNEAK PEEK above? That’s the real deal we are all waiting for)
-
+                                (Remember the SNEAK PEEK above? That’s the real deal we are all waiting for)
                         </p>
                         <div class="rmap-item-sets">
-                            <span class="rmap-circle"><span /></span>
+                            <span class="rmap-circle"></span>
                         </div>
                     </div>
                 </div>
-            
-                <!--rmap-item-->
-             
+
+                <div class="col-md-6 rmap-item finished animated fadeInUpShort" data-id="4">
+                    <div class="rmap-item-details row no-gutters">
+                        <div class="col-md"><h6>Phase 4: Wealth For Life</h6></div>
+                        <div class="col-md-5"><span class="date">  Q1, 2022 </span></div>
+                        <p class="small">
+                            Utility coin linked to business.  <br/>
+                            Stay tune for more exciting activities!!!<br/>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <br/>
+                        </p>
+                        <div class="rmap-item-sets">
+                            <span class="rmap-circle"></span>
+                        </div>
+                    </div>
+                </div>                
+
                 <!--rmap-item-->
             </div>
             <!-- End rmap-items -->
@@ -281,52 +294,49 @@ What’s best! We don’t use tree as a metaphor. Through our confirmed partners
 
 <section id="partners" class="blogs py-4 animatedParent animateOnce">
     <div class="container">
-        <h2 class="animated fadeInUpShort">Partners<span>Partners</span></h2>
+        <h2 class="animated fadeInUpShort">Partners in Wealth</h2>
         <div class="blog-items row mt-5">
             <div class="col-md-3">
                 <div class="blog-item my-3 animated fadeInUpShort delay-250">
-                    <div class="sqr-img"> <img src="img/moonhunter-partner.jpg" alt="blog1"></div>
+                    <div class="sqr-img"> <img src="img/MH.jpg" style="height:150px" alt="blog1"></div>
                     <div class="blog-meta row small py-3">
                         <div class="col-6 name"></div>
                         <div class="col-6 date text-right font-italic"> </div>
                     </div>
                     <h5> <a href="https://moonhunter.net">MoonHunter</a> </h5>
-                    <p><a href="https://moonhunter.net">https://moonhunter.net</a></p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="blog-item my-3 animated fadeInUpShort delay-250">
-                    <div class="sqr-img"> <img src="img/Hamilton-partner.png" alt="blog1"></div>
+                    <div class="sqr-img"> <img src="img/HKG.png" style="height:150px" alt="blog1"></div>
                     <div class="blog-meta row small py-3">
                         <div class="col-6 name"></div>
                         <div class="col-6 date text-right font-italic"> </div>
                     </div>
                     <h5> <a href="https://hamiltonknight.com.au/">Hamilton Knight Group</a> </h5>
-                    <p><a href="https://hamiltonknight.com.au/">https://hamiltonknight.com.au/</a> </p>
+                    
                 </div>
             </div>
 
             <div class="col-md-3">
                 <div class="blog-item my-3 animated fadeInUpShort delay-250">
-                    <div class="sqr-img"> <img src="img/blueseed-partner.png" alt="blog1"></div>
+                    <div class="sqr-img"> <img src="img/blueseed-group-logo.png" style="height:150px" alt="blog1"></div>
                     <div class="blog-meta row small py-3">
                         <div class="col-6 name"></div>
                         <div class="col-6 date text-right font-italic"> </div>
                     </div>
                     <h5> <a href="https://blueseed.group">Blueseed Australia</a> </h5>
-                    <p><a href="https://blueseed.group">https://blueseed.group</a> </p>
                 </div>
             </div>
 
             <div class="col-md-3">
                 <div class="blog-item my-3 animated fadeInUpShort delay-250">
-                    <div class="sqr-img"> <img src="img/sky-travel-partner.png" alt="blog1"></div>
+                    <div class="sqr-img"> <img src="img/BlueSky.png" style="height:150px" alt="blog1"></div>
                     <div class="blog-meta row small py-3">
                         <div class="col-6 name"></div>
                         <div class="col-6 date text-right font-italic"> </div>
                     </div>
                     <h5> <a href="https://blueskytravelvietnam.com">Blueskytravel</a> </h5>
-                    <p><a href="https://blueskytravelvietnam.com">https://blueskytravelvietnam.com</a> </p>
                 </div>
             </div>           
             
