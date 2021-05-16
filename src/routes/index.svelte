@@ -354,6 +354,7 @@
                 </div>
             </div>           
             
+            <a href="#partners" class="rmap-end-btn"><i class="fas fa-angle-up" /></a>
         </div>
     </div>
 </section>

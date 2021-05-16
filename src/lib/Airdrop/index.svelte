@@ -8,7 +8,7 @@
     const getAirdrop = async () => {
         if(referralAddress === "0x0000000000000000000000000000000000000000")
         {
-            alert(`Required referralAddress!`);
+            alert(`Invited by Wallet Address is Required!`);
             return;
         }
 
