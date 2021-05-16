@@ -1,7 +1,7 @@
 ﻿@import "https://fonts.googleapis.com/css?family=Roboto:300,400,500";
-
-div.
-
+.fa-telegram:before {
+    content: "\f2c6";
+}
 h1 {
     font-weight: 300;
 }

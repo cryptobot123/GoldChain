@@ -11,11 +11,11 @@
                 <div class="social-links row">
                     <a class="col" href="#"> <i class="fab fa-facebook-f" /> </a>
                     <a class="col" href="https://twitter.com/GoldChainToken"> <i class="fab fa-twitter" /> </a>
+                    <a class="col" href="https://t.me/goldchaingroup"> <i class="fab fa-telegram"></i></a>
                     <a class="col" href="#"> <i class="fab fa-linkedin-in" /> </a>
                     <a class="col" href="#"> <i class="fab fa-pinterest-p" /> </a>
                     <a class="col" href="#"> <i class="fab fa-youtube" /> </a>
                     <a class="col" href="#"> <i class="fab fa-instagram" /> </a>
-                    <a class="col" href="#"> <i class="fab fa-telegram"></i></a>
                 </div>
             </div>
             <!--end social-->
