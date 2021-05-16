@@ -278,6 +278,61 @@ What’s best! We don’t use tree as a metaphor. Through our confirmed partners
     </div>
     <!--container-->
 </section>
+
+<section id="partners" class="blogs py-4 animatedParent animateOnce">
+    <div class="container">
+        <h2 class="animated fadeInUpShort">Partners</h2>
+        <div class="blog-items row mt-5">
+            <div class="col-md-3">
+                <div class="blog-item my-3 animated fadeInUpShort delay-250">
+                    <div class="sqr-img"> <img src="img/moonhunter-partner.jpg" alt="blog1"></div>
+                    <div class="blog-meta row small py-3">
+                        <div class="col-6 name"></div>
+                        <div class="col-6 date text-right font-italic"> </div>
+                    </div>
+                    <h5> <a href="https://moonhunter.net">MoonHunter</a> </h5>
+                    <p><a href="https://moonhunter.net">https://moonhunter.net</a></p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="blog-item my-3 animated fadeInUpShort delay-250">
+                    <div class="sqr-img"> <img src="img/Hamilton-partner.png" alt="blog1"></div>
+                    <div class="blog-meta row small py-3">
+                        <div class="col-6 name"></div>
+                        <div class="col-6 date text-right font-italic"> </div>
+                    </div>
+                    <h5> <a href="https://hamiltonknight.com.au/">Hamilton Knight Group</a> </h5>
+                    <p><a href="https://hamiltonknight.com.au/">https://hamiltonknight.com.au/</a> </p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="blog-item my-3 animated fadeInUpShort delay-250">
+                    <div class="sqr-img"> <img src="img/blueseed-partner.png" alt="blog1"></div>
+                    <div class="blog-meta row small py-3">
+                        <div class="col-6 name"></div>
+                        <div class="col-6 date text-right font-italic"> </div>
+                    </div>
+                    <h5> <a href="https://blueseed.group">Blueseed Australia</a> </h5>
+                    <p><a href="https://blueseed.group">https://blueseed.group</a> </p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="blog-item my-3 animated fadeInUpShort delay-250">
+                    <div class="sqr-img"> <img src="img/sky-travel-partner.png" alt="blog1"></div>
+                    <div class="blog-meta row small py-3">
+                        <div class="col-6 name"></div>
+                        <div class="col-6 date text-right font-italic"> </div>
+                    </div>
+                    <h5> <a href="https://blueskytravelvietnam.com">Blueskytravel</a> </h5>
+                    <p><a href="https://blueskytravelvietnam.com">https://blueskytravelvietnam.com</a> </p>
+                </div>
+            </div>           
+            
+        </div>
+    </div>
+</section>
 <!-- End roadmap Section -->
 <!-- faq Section -->
 <!-- End faq Section -->
