@@ -167,7 +167,7 @@
         $count_token.each(function () {
             var date = new Date();
             var $self = $(this),
-                datetime = date.setDate(date.getDate() + 10);
+                datetime = new Date("2021-06-01T00:00:00.000+08:00");
             $self.countdown(datetime).on("update.countdown", function (event) {
                 $(this).html(
                     event.strftime(
