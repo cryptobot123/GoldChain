@@ -7,8 +7,7 @@
     <nav class="mainmenu is-sticky navbar navbar-expand-lg animatedParent"  id="mainmenu">
         <div class="container">
             <a class="navbar-brand  animated fadeInUpShort go" href="./">
-                <img class="logo logo-dark" alt="logo" src="img/icon.png"  style="height:60px;" /> 
-                <img class="logo logo-dark" alt="logo" src="img/logo12.png" style="height:60px;" /> 
+                <img class="logo logo-dark" alt="logo" src="img/TextGoldChain.png" /> 
             </a>
             <button
                 class="navbar-toggler"

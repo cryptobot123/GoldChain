@@ -120,44 +120,43 @@
 <section id="services" class="services pt-5 text-center">
     <div class="container">
         <div class="animatedParent animateOnce">
-            <h2 class="animated fadeInUpShort">We ensure best services <span> Features</span></h2>
+            <h2 class="animated fadeInUpShort">We ensure best services = In short, here is the Deal!</h2>
             <div class="service-des py-1 animated fadeInUpShort delay-250">
                 <p>
-                    CryptICO is a platform that allows any indivaidual, charity or NGO to launch their own fundraising campaigns. These campaigns run on Ethereum Smart Contracts
-                    and are fully manageable from the Dashboard.
+
                 </p>
             </div>
         </div>
         <div class="service-items row py-2  animatedParent animateOnce" data-sequence="250">
             <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="1">
                 <div class="icon"><img src="img/ftIcon-1.webp" alt="Mobile app" /></div>
-                <h5 class="pt-5">Mobile app</h5>
-                <p class="small">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+                <h5 class="pt-5">Decentralised</h5>
+                <p class="small"></p>
             </div>
             <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="2">
                 <div class="icon"><img src="img/ftIcon-2.webp" alt="Mobile app" /></div>
-                <h5 class="pt-5">Insureance Protection</h5>
-                <p class="small">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+                <h5 class="pt-5">No DEV coin dumping. 100% community powered</h5>
+                <p class="small"></p>
             </div>
             <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="3">
                 <div class="icon"><img src="img/ftIcon-3.webp" alt="Mobile app" /></div>
-                <h5 class="pt-5">Secure Storage</h5>
-                <p class="small">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+                <h5 class="pt-5">Safe and sound</h5>
+                <p class="small">Smart contract. Immutable source code.</p>
             </div>
             <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="4">
                 <div class="icon"><img src="img/ftIcon-4.webp" alt="Mobile app" /></div>
-                <h5 class="pt-5">Echange Services</h5>
-                <p class="small">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+                <h5 class="pt-5">Chain of Gold. Chain of Wealth</h5>
+                <p class="small">By holding GoldChain, you are doing your part to create, build, grow and accumulate wealth for life with a juicy airdrop right from the start.</p>
             </div>
             <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="5">
                 <div class="icon"><img src="img/ftIcon-5.webp" alt="Mobile app" /></div>
                 <h5 class="pt-5">Credit Card Use</h5>
-                <p class="small">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+                <p class="small">Coming soon...</p>
             </div>
             <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="6">
                 <div class="icon"><img src="img/ftIcon-6.webp" alt="Mobile app" /></div>
                 <h5 class="pt-5">Multicurrency Wallet</h5>
-                <p class="small">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+                <p class="small">Coming soon...</p>
             </div>
         </div>
     </div>
@@ -167,54 +166,34 @@
 <section id="faqs" class="faq py-4 text-center">
     <div class="container">
         <div class="animatedParent animateOnce">
-            <h2 class="animated fadeInUpShort">Have any questions?<span>FAQ</span></h2>
+            <h2 class="animated fadeInUpShort">GoldChain Chain of Gold. Chain of Wealth</h2>
         </div>
         <div class="accordion py-4 animatedParent animateOnce" data-sequence="250">
             <div class="faq-item animated fadeInUpShort delay-250" data-id="1">
-                <h6 class="collapsed" data-toggle="collapse" data-target="#faq1" aria-expanded="true">How do Buy cryptICO tokens?</h6>
+                <h6 class="collapsed" data-toggle="collapse" data-target="#faq1" aria-expanded="true">Before we begin, why are we here?</h6>
                 <div id="faq1" class="collapse">
                     <p>
-                        This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                        consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a
-                        odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia
-                        nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet
-                        nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam
+                        We all want to be rich. We all want to taste the sweetness of the rewards of being rich. Or even if you are already wealthy; more than that, you want to enjoy the sustainable wealth. No matter where we are, climbing that money tree, we all want to have the chain of wealth that keeps on generating and accumulating value while we are doing our stuff. Whatever that “stuff” is!
                     </p>
                 </div>
             </div>
             <div class="faq-item animated fadeInUpShort" data-id="2">
-                <h6 data-toggle="collapse" data-target="#faq2" aria-expanded="true">How do Buy cryptICO tokens?</h6>
+                <h6 data-toggle="collapse" data-target="#faq2" aria-expanded="true">Who we are</h6>
                 <div id="faq2" class="collapse show">
                     <p>
-                        This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                        consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a
-                        odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia
-                        nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet
-                        nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam
+                        GoldChain is a wealth generating and accumulating decentralised community-based cryptocurrency, which aims to create a chain of value to coin holders.
                     </p>
                 </div>
             </div>
-            <div class="faq-item animated fadeInUpShort" data-id="3">
-                <h6 class="collapsed" data-toggle="collapse" data-target="#faq3" aria-expanded="true">How do Buy cryptICO tokens?</h6>
-                <div id="faq3" class="collapse">
-                    <p>
-                        This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                        consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a
-                        odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia
-                        nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet
-                        nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam
-                    </p>
-                </div>
-            </div>
+
             <div class="faq-item animated fadeInUpShort" data-id="4">
-                <h6 class="collapsed" data-toggle="collapse" data-target="#faq4" aria-expanded="true">How do Buy cryptICO tokens?</h6>
+                <h6 class="collapsed" data-toggle="collapse" data-target="#faq4" aria-expanded="true">Sneak peek!!! Do you know that there is the term “money tree” for a reason?</h6>
                 <div id="faq4" class="collapse">
                     <p>
-                        This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                        consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a
-                        odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia
-                        nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet
-                        nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam
+                        Tree grows leaves. Leaves pull in CO2 and release Oxygen in the process (Sure! Sure! Primary school knowledge, who doesn’t know that!)
+Think about creating and accumulating wealth as our money trees grow leaves. One leaf does not mean much, yet a tree full of leaves and a forest full of trees will create and accumulate worthwhile value. 
+What’s best! We don’t use tree as a metaphor. Through our confirmed partnership program, coinholders are members of the community that will contribute to grow more trees for every more dollar we make. Our community prospers with GoldChain and the world we live in will be happier with more trees. We meant it when we said “money tree”; and do stay long enough to be a part of that. Guarantee, we will all feel better in this journey.
+
                     </p>
                 </div>
             </div>
@@ -233,9 +212,16 @@
             <div class="rmap-items row no-gutters animatedParent animateOnce" data-sequence="250">
                 <div class="col-md-6 rmap-item finished animated fadeInUpShort delay-250" data-id="1">
                     <div class="rmap-item-details row no-gutters">
-                        <div class="col-md"><h6>Private Presale</h6></div>
+                        <div class="col-md"><h6>Wealth Creation</h6></div>
                         <div class="col-md-5"><span class="date"> January, 2021 </span></div>
-                        <p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                        <p class="small">
+                            Website Launch <br/>
+                            Social Media: Telegram, Twitter, Facebook, Instagram, Tiktok, Discord, Subreddit <br/>
+                            Pancake Swap Listing <br/>
+                            CoinGecko Listing <br/>
+                            CoinMarketCap Listing <br/>
+                            5,000 Holders <br/>
+                        </p>
                         <div class="rmap-item-sets">
                             <span class="rmap-circle"><span /></span>
                         </div>
