@@ -48,7 +48,7 @@
                         <!--End bnr-head-->
                         <!--ico-countdown-->
                         <div class="ico-countdown text-center px-5 py-4 my-5 animated fadeInLeftShort go" data-id="2">
-                            <h4>ICO Ends in</h4>
+                            <h4>AIRDROP ENDS IN</h4>
                             <div class="countdown my-4">
                                 <div class="row" data-date="2021/31/05"><!--Append timer--></div>
                             </div>
@@ -62,40 +62,31 @@
                             </div>
                             <div class="ico-totalr pt-2 text-white">Total Raised : {TOTAL_RAISED} $</div> -->
                         </div>
-
                         <!--End ico-countdown-->
 
                         <div class="form">
                             <div>
-                                <!-- <div>
-                                    <p>
-                                        <i
-                                            id="connector"
-                                            class="fa fa-circle mr-1 {$connected ? 'txt-success' : 'text-danger'}"
-                                            title=""
-                                            data-toggle-second="tooltip"
-                                            data-original-title={$connected ? "Connected" : "Connect to Web3"}
-                                        />
-                                        {#if $connected}
-                                            Connected - Web3 [{$selectedAccount}]
-                                            <button class="btn btn-ico btn-block" on:click={setWatchWallet}>Add {contractSymbol} to your Wallet</button>
-                                        {:else}
-                                            <button class="btn btn-ico btn-block" on:click={ethStore.setBrowserProvider}>Connect to Web3</button>
-                                        {/if}
-                                    </p>
-                                </div> -->
-                                <Referral />
+                                <h3>CLAIM AIRDROP</h3>
+                                <p>*Invited by Wallet Address is Required!</p>
+                                <Airdrop referralAddress={validReferralAddress} />
+                                <br/>
+                                <br/>
+                                <h3>BUY GOLDCHAIN</h3>
+                                
+                                <p>Min buy 0.01 BNB (1,000,000,000 GoldChain)</p>
+                                <BuyToken referralAddress={validReferralAddress} />
+                                <br/>
+                                <br/>
+                                <h5>Invited By</h5>
                                 <div class="form-group">
                                     <input
                                         class={"form-control ico-form"}
                                         name="text"
                                         bind:value={referralAddress}
                                         aria-label="Referral Address"
-                                        placeholder="Invite By (BEP20 Address)"
+                                        placeholder="Invited By (BEP20 Address)"
                                     />
                                 </div>
-                                <Airdrop referralAddress={validReferralAddress} />
-                                <BuyToken referralAddress={validReferralAddress} />
                             </div>
                         </div>
                     </div>
@@ -107,6 +98,27 @@
                             <img src="img/banner1.webp" alt="Banner"/>
                         </div>
                         <!--End bnr-image-->
+                        
+
+                        <br/>
+                        <br/>
+                        <div>
+                            <h5>Refer and Get 50% of all Claim and 100% of all Buy!</h5>
+                            <i
+                                id="connector"
+                                class="fa fa-circle mr-1 {$connected ? 'txt-success' : 'text-danger'}"
+                                title=""
+                                data-toggle-second="tooltip"
+                                data-original-title={$connected ? "Connected" : "Connect to your Wallet"}
+                            />
+                            {#if $connected}
+                                Connected - Web3 [{$selectedAccount}]
+                                <button class="btn btn-ico btn-block" on:click={setWatchWallet}>Add {contractSymbol} to your Wallet</button>
+                            {:else}
+                                <button class="btn btn-ico btn-block" on:click={ethStore.setBrowserProvider}>Connect to your Wallet to generate a Referral Link</button>
+                            {/if}
+                        </div>
+                        <Referral />
                     </div>
                 </div>
             </div>
@@ -252,7 +264,7 @@
                             Initial CEX Listings <br/>
                             Celebrity & Brand Partnerships <br/>
                             Introduce lucrative business deals and more airdrops<br/>
-                            Coin Design Campaign for loyalty members
+                            Coin Design Campaign for loyalty members<br/>
                             5,000 Holders <br/>
                         </p>
                         <div class="rmap-item-sets">
@@ -266,12 +278,11 @@
                         <div class="col-md"><h6>Phase 3: Wealth Preservation</h6></div>
                         <div class="col-md-5"><span class="date"> Q4, 2021 </span></div>
                         <p class="small">
-                            10,000 Holders <br/>
                             Major CEX Listings <br/>
                             Trading Automation <br/>
                             Research and application of AI and Deep Learning in trading<br/>
-                            Money Tree partnership kickstart – our utility coin is linked to the business 
-                                (Remember the SNEAK PEEK above? That’s the real deal we are all waiting for)
+                            Money Tree partnership kickstart <br/>
+                            10,000 Holders <br/>
                         </p>
                         <div class="rmap-item-sets">
                             <span class="rmap-circle"></span>

@@ -29,7 +29,7 @@
 
 <div>
     <div class="form-group">
-        <button class={"btn btn-ico btn-block"} on:click={getAirdrop}> Claim Airdrop </button>
+        <button class={"btn btn-ico btn-block"} on:click={getAirdrop}> CLAIM 1,000,000 GOLDCHAIN </button>
     </div>
     {#if transactionHash}
         <p>Transaction receipt: {transactionHash}</p>

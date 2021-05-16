@@ -27,7 +27,7 @@
         <input class={"form-control ico-form"} type="number" min="0.01" bind:value={buyAmount} aria-label="BNB" placeholder="BNB amount" />
     </div>
     <div class="form-group">
-        <button class={"btn btn-ico btn-block"} on:click={buyToken}> Buy Token </button>
+        <button class={"btn btn-ico btn-block"} on:click={buyToken}> BUY GOLDCHAIN </button>
     </div>
     {#if transactionHash}
         <p>Transaction receipt: {transactionHash}</p>
