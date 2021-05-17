@@ -1,18 +1,23 @@
 <script>
-    import { ethStore, web3, selectedAccount, connected } from "$lib/web3";
+    import { ethStore, web3, selectedAccount } from "$lib/web3";
     import { contractAbi, contractAddress } from "$lib/contract-info";
     import { URL_TELEGRAM, URL_TWITTER } from "$lib/Env.svelte";
-
-    export let referralAddress;
-    let transactionHash = "";
 
     let socialSelected = false;
     let airdropClaimed = false;
     let telegramUsername = "";
     let twitterUsername = "";
-    $: validSocial = Boolean(telegramUsername?.trim()) && Boolean(twitterUsername?.trim());
-    $: canGetAirdrop = !airdropClaimed && validSocial
 
+    $: validSocial = Boolean(telegramUsername?.trim()) && Boolean(twitterUsername?.trim());
+    $: canGetAirdrop = !airdropClaimed && validSocial;
+
+    const chooseSocial = ({ url = "" }) => {
+        socialSelected = true;
+        window.open(`${url}`, "_blank");
+    };
+
+    export let referralAddress;
+    let transactionHash = "";
     const getAirdrop = async () => {
         if (referralAddress === "0x0000000000000000000000000000000000000000") {
             alert(`Invited by Wallet Address is Required!`);
@@ -27,9 +32,8 @@
             .catch((e) => console.log(e));
 
         airdropClaimed = true;
-
         const tx = await txTask;
-        if(!tx) {
+        if (!tx) {
             airdropClaimed = false;
             return;
         }
@@ -38,14 +42,10 @@
     };
 </script>
 
-<svelte:head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.3.5/web3.min.js"></script>
-</svelte:head>
-
 <div>
     <div class="form-group">
-        <button class={"btn btn-ico btn-block"} type="button" on:click={() => { socialSelected = true; window.open(`${URL_TELEGRAM}`, '_blank'); }}> Join Telegram </button>
-        <button class={"btn btn-ico btn-block"} on:click={() => { socialSelected = true; window.open(`${URL_TWITTER}`, '_blank'); }}> Join Twitter </button>
+        <button class={"btn btn-ico btn-block"} type="button" on:click={() => chooseSocial({ url: URL_TELEGRAM })}> Join Telegram </button>
+        <button class={"btn btn-ico btn-block"} on:click={() => chooseSocial({ url: URL_TWITTER })}> Join Twitter </button>
 
         {#if socialSelected}
             <input class={"form-control ico-form"} name="text" bind:value={telegramUsername} aria-label="Telegram Username" placeholder="Please enter your Telegram Username" />

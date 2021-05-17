@@ -7,7 +7,7 @@
     import Airdrop from "$lib/Airdrop/index.svelte";
     import BuyToken from "$lib/BuyToken/index.svelte";
     import Referral from "$lib/Referral/index.svelte";
-    import { WEB_DOMAIN, TOTAL_RAISED } from "$lib/Env.svelte";
+    import { WEB_DOMAIN } from "$lib/Env.svelte";
     import { ethStore, web3, connected, selectedAccount } from "$lib/web3";
     import { onMount } from "svelte";
 
@@ -32,8 +32,8 @@
 
 <svelte:head>
     <title>GoldChain is a wealth generating and accumulating decentralised community-based cryptocurrency, which aims to create a chain of value to token holders.</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.3.5/web3.min.js"></script>
 </svelte:head>
+
 <section id="services" class="services pt-5 text-center">
     <!--Banner/Hero Slider-->
     

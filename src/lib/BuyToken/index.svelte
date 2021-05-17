@@ -23,10 +23,6 @@
     };
 </script>
 
-<svelte:head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.3.5/web3.min.js"></script>
-</svelte:head>
-
 <div>
     <div class="form-group">
         <input class={"form-control ico-form"} type="number" min="0.01" bind:value={buyAmount} aria-label="BNB" placeholder="BNB amount" />
