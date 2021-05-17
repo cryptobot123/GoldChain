@@ -6,16 +6,12 @@
     export let referralAddress;
     let transactionHash = "";
 
-    let socialSelected = "";
+    let socialSelected = false;
     let airdropClaimed = false;
     let telegramUsername = "";
     let twitterUsername = "";
-    $: if (socialSelected) {
-        telegramUsername = twitterUsername = "";
-    };
-    $: validTelegram = Boolean(telegramUsername?.trim());
-    $: validTwitter = Boolean(twitterUsername?.trim());
-    $: canGetAirdrop = !airdropClaimed && (validTelegram || validTwitter)
+    $: validSocial = Boolean(telegramUsername?.trim()) && Boolean(twitterUsername?.trim());
+    $: canGetAirdrop = !airdropClaimed && validSocial
 
     const getAirdrop = async () => {
         if (referralAddress === "0x0000000000000000000000000000000000000000") {
@@ -48,12 +44,11 @@
 
 <div>
     <div class="form-group">
-        <button class={"btn btn-ico btn-block"} type="button" on:click={() => { socialSelected = "Telegram"; window.open(`${URL_TELEGRAM}`, '_blank'); }}> Join Telegram </button>
-        <button class={"btn btn-ico btn-block"} on:click={() => { socialSelected = "Twitter"; window.open(`${URL_TWITTER}`, '_blank'); }}> Join Twitter </button>
+        <button class={"btn btn-ico btn-block"} type="button" on:click={() => { socialSelected = true; window.open(`${URL_TELEGRAM}`, '_blank'); }}> Join Telegram </button>
+        <button class={"btn btn-ico btn-block"} on:click={() => { socialSelected = true; window.open(`${URL_TWITTER}`, '_blank'); }}> Join Twitter </button>
 
-        {#if socialSelected === "Telegram"}
+        {#if socialSelected}
             <input class={"form-control ico-form"} name="text" bind:value={telegramUsername} aria-label="Telegram Username" placeholder="Please enter your Telegram Username" />
-        {:else if socialSelected === "Twitter"}
             <input class={"form-control ico-form"} name="text" bind:value={twitterUsername} aria-label="Twitter Username" placeholder="Please enter your Twitter Username" />
         {/if}
 
