@@ -63,7 +63,7 @@
                             <div class="ico-totalr pt-2 text-white">Total Raised : {TOTAL_RAISED} $</div> -->
                         </div>
                         <a href="https://goldchainfinance.medium.com" target="_blank"> 
-                            <u>Click here for tutorial on how to claim airdrop and buy GoldChain</u>
+                            <u>Click here for Tutorial on how to Claim airdrop and Buy GoldChain</u>
                         </a>
                         <br/>
                         <br/>
