@@ -62,6 +62,12 @@
                             </div>
                             <div class="ico-totalr pt-2 text-white">Total Raised : {TOTAL_RAISED} $</div> -->
                         </div>
+                        <a href="https://goldchainfinance.medium.com" target="_blank"> 
+                            <u>Click here for tutorial on how to claim airdrop and buy GoldChain</u>
+                        </a>
+                        <br/>
+                        <br/>
+                        
                         <!--End ico-countdown-->
 
                         <div class="form">
@@ -121,15 +127,21 @@
                             <div class="social-links row" style="margin-top: 100px;font-size: 30px;margin-left:3px;color:white;">Follow Us:</div>
                             <div class="social-links row">
                                  <div>
-                                    <a class="col" href="https://twitter.com/GoldChainToken" style="font-size: 20px;"> <i class="fab fa-twitter" /><span style="margin-left:8px;"> Twitter</span></a>
+                                    <a class="col" href="https://twitter.com/GoldChainToken" style="font-size: 20px;" target="_blank"> <i class="fab fa-twitter" /><span style="margin-left:8px;"> Twitter</span></a>
                                 </div>
                             </div>
                             <div class="social-links row">
                                 <div>
-                                   <a class="col" href="https://t.me/goldchaingroup" style="font-size: 20px;"> <i class="fab fa-telegram"></i><span style="margin-left:8px;"> Telegram</span></a>
+                                   <a class="col" href="https://t.me/goldchaingroup" style="font-size: 20px;" target="_blank"> <i class="fab fa-telegram"></i><span style="margin-left:8px;"> Telegram</span></a>
                                </div>
                            </div>
    
+                            <div class="social-links row">
+                                <div>
+                                    <a class="col" href="https://goldchainfinance.medium.com" style="font-size: 20px;" target="_blank"> <img src="img/medium.png" alt=""/><span style="margin-left:8px;"> Medium</span></a>
+                                </div>
+                           </div>
+
                         </div>
                         <!--End bnr-image-->
                     </div>
@@ -379,18 +391,23 @@
 <!-- contact Section -->
 
 
-
     <!--End bnr-image-->
 
 <section id="contact" class="contact py-4 animatedParent animateOnce">
     <div class="container">
         <h2 class="animated fadeInUpShort">Get In Touch <span>Contact</span></h2>
+        
         <h4 style="text-align: center;" class="animated fadeInUpShort">
-            <a class="col" href="https://twitter.com/GoldChainToken" style="font-size: 20px;"> <i class="fab fa-twitter" /><span style="margin-left:8px;"> Twitter</span></a>
+            <a class="col" href="https://twitter.com/GoldChainToken" style="font-size: 20px;" target="_blank"> <i class="fab fa-twitter" /><span style="margin-left:8px;"> Twitter</span></a>
+
+            <a class="col" href="https://t.me/goldchaingroup" style="font-size: 20px;" target="_blank"> <i class="fab fa-telegram"></i><span style="margin-left:8px;"> Telegram</span></a>
+
+            <a class="col" href="https://goldchainfinance.medium.com" style="font-size: 20px;" target="_blank"> <img src="img/medium.png" alt=""/><span style="margin-left:8px;"> Medium</span></a>
+
         </h4>
-        <h4 style="text-align: center;" class="animated fadeInUpShort">
+        <!-- <h4 style="text-align: center;" class="animated fadeInUpShort">
             <a class="col" href="https://t.me/goldchaingroup" style="font-size: 20px;"> <i class="fab fa-telegram"></i><span style="margin-left:8px;"> Telegram</span></a>
-        </h4>
+        </h4> -->
     </div>
 </section>
 <!-- End contact Section -->

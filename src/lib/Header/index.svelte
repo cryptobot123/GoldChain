@@ -24,6 +24,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarToggle">
                 <ul class="navbar-nav text-uppercase animated fadeInUpShort delay-250 go">
                     <li class="nav-item"><a class="nav-link" href="#services">Airdrop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://goldchainfinance.medium.com" target="_blank">FAQ</a></li>
                     <li class="nav-item"><a class="nav-link" href="#faqs">Our Idea</a></li>
                     <li class="nav-item"><a class="nav-link" href="#roadmap">Roadmap</a></li>
                     <li class="nav-item"><a class="nav-link" href="#partners">Partners</a></li>
