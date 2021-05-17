@@ -7,6 +7,11 @@
     let buyAmount = 0.01;
 
     const buyToken = async () => {
+        if (buyAmount < 0.01) {
+            alert(`Sorry, the minimum buy is 0.01 BNB. Please try again!`);
+            return;
+        }
+
         await ethStore.setBrowserProvider();
         const web3Contract = new $web3.eth.Contract(contractAbi, contractAddress);
         const tx = await web3Contract.methods
