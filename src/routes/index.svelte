@@ -347,7 +347,7 @@
     <div class="container">
         <h2 class="animated fadeInUpShort">Partners in Wealth</h2>
         <div class="blog-items row mt-5" style="text-align:center">
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="blog-item my-3 animated fadeInUpShort delay-250">
                     <div class="sqr-img"> <img src="img/HKG.png" style="height:150px" alt="blog1"></div>
                     <div class="blog-meta row small py-3">
@@ -359,7 +359,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="blog-item my-3 animated fadeInUpShort delay-250">
                     <div class="sqr-img"> <img src="img/blueseed-group-logo.png" style="height:150px" alt="blog1"></div>
                     <div class="blog-meta row small py-3">
@@ -370,16 +370,6 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="blog-item my-3 animated fadeInUpShort delay-250">
-                    <div class="sqr-img"> <img src="img/BlueSky.png" style="height:150px" alt="blog1"></div>
-                    <div class="blog-meta row small py-3">
-                        <div class="col-6 name"></div>
-                        <div class="col-6 date text-right font-italic"> </div>
-                    </div>
-                    <h5> <a href="https://blueskytravelvietnam.com" target="_blank">Blue Sky Travel</a> </h5>
-                </div>
-            </div>           
             
             <a href="#partners" class="rmap-end-btn"><i class="fas fa-angle-up" /></a>
         </div>
