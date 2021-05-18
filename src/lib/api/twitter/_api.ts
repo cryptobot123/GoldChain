@@ -10,7 +10,7 @@ export async function api(method: string, url: string, data?: {}) {
 	});
 
 	return {
-		status: res.status,
-		body: await res.json()
+		ok: res.ok,
+		data: await res.json()
 	};
 }

@@ -25,7 +25,7 @@
         }
 
         const verifyResult = await api("GET", `?twitterUsername=${twitterUsername}`);
-        if (!verifyResult.status) {
+        if (!verifyResult.ok || !verifyResult.data.status) {
             alert(`Your Twitter username is invalid! Please follow our Twitter group here ${URL_TWITTER} then try again!`);
             return;
         }
