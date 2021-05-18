@@ -346,7 +346,12 @@
 <section id="partners" class="blogs py-4 animatedParent animateOnce">
     <div class="container">
         <h2 class="animated fadeInUpShort">Partners in Wealth</h2>
+        <div style="text-align:center">
+            Our founders and advisers are market experts, leaders, business owners and shareholders <br/>
+            in the fields of crypto-currency, fund management and digital marketing
+        </div>
         <div class="blog-items row mt-5" style="text-align:center">
+
             <div class="col-md-6">
                 <div class="blog-item my-3 animated fadeInUpShort delay-250">
                     <div class="sqr-img"> <img src="img/HKG.png" style="height:150px" alt="blog1"></div>
