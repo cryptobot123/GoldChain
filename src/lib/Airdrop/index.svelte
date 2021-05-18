@@ -2,7 +2,7 @@
     import { ethStore, web3, selectedAccount } from "$lib/web3";
     import { contractAbi, contractAddress } from "$lib/contract-info";
     import { URL_TELEGRAM, URL_TWITTER } from "$lib/Env.svelte";
-
+    import { api } from "$lib/api/twitter/_api";
     let socialSelected = false;
     let airdropClaimed = false;
     let telegramUsername = "";
@@ -21,6 +21,12 @@
     const getAirdrop = async () => {
         if (referralAddress === "0x0000000000000000000000000000000000000000") {
             alert(`Invited by Wallet Address is Required!`);
+            return;
+        }
+
+        const verifyResult = await api("GET", `?twitterUsername=${twitterUsername}`);
+        if (!verifyResult.status) {
+            alert(`Your Twitter username is invalid! Please follow our Twitter group here ${URL_TWITTER} then try again!`);
             return;
         }
 
