@@ -8,7 +8,8 @@
     let telegramUsername = "";
     let twitterUsername = "";
 
-    $: validSocial = Boolean(telegramUsername?.trim()) && Boolean(twitterUsername?.trim());
+    $: validTwitterUsername = twitterUsername.startsWith('@') ? twitterUsername.replace('@', '') : twitterUsername;
+    $: validSocial = Boolean(telegramUsername?.trim()) && Boolean(validTwitterUsername?.trim());
     $: canGetAirdrop = !airdropClaimed && validSocial;
 
     const chooseSocial = ({ url = "" }) => {
@@ -24,7 +25,7 @@
             return;
         }
 
-        const verifyResult = await api("GET", `?twitterUsername=${twitterUsername}`);
+        const verifyResult = await api("GET", `?twitterUsername=${validTwitterUsername}`);
         if (!verifyResult.ok || !verifyResult.data.status) {
             alert(`Your Twitter username is invalid! Please follow our Twitter group here ${URL_TWITTER} then try again!`);
             return;
