@@ -28,6 +28,31 @@
             })
             .catch((e) => console.log(e));
     };
+
+    let daysLeft = 0;
+    let hoursLeft = 0;
+    let minutesLeft = 0;
+    let secondsLeft = 0;
+
+    function makeTimer() {
+        let endTime = new Date("2021-06-01T00:00:00.000+08:00");
+        let now = new Date();
+        let timeLeft = (endTime.valueOf() - now.valueOf()) / 1000;
+        daysLeft = Math.floor(timeLeft / 86400);
+        hoursLeft = Math.floor((timeLeft - daysLeft * 86400) / 3600);
+        minutesLeft = Math.floor((timeLeft - daysLeft * 86400 - hoursLeft * 3600) / 60);
+        secondsLeft = Math.floor(timeLeft - daysLeft * 86400 - hoursLeft * 3600 - minutesLeft * 60);
+    }
+
+    makeTimer();
+
+    setInterval(() => {
+        makeTimer();
+    }, 1000);
+
+    $: hours = hoursLeft < 10 ? `0${hoursLeft}` : hoursLeft;
+    $: minutes = minutesLeft < 10 ? `0${minutesLeft}` : minutesLeft;
+    $: seconds = secondsLeft < 10 ? `0${secondsLeft}` : secondsLeft;
 </script>
 
 <svelte:head>
@@ -50,7 +75,10 @@
                         <div class="ico-countdown text-center px-5 py-4 my-5 animated fadeInLeftShort go" data-id="2">
                             <h4>AIRDROP ENDS IN</h4>
                             <div class="countdown my-4">
-                                <div class="row" data-date="2021/31/05"><!--Append timer--></div>
+                                <div class="row" data-date="2021/31/05">
+                                    <!--Append timer-->
+                                    <div class="col"> <div class="ico-time">{daysLeft} <span>Days</span> </div> </div>  <div class="col"> <div class="ico-time">{hours} <span>Hours</span> </div> </div> <div class="col"> <div class="ico-time">{minutes} <span>Minuts</span> </div> </div>  <div class="col"> <div class="ico-time">{seconds} <span>Seconds</span> </div> </div>
+                                </div>
                             </div>
                             <!-- <div class="ico-progress">
                                 <div class="progress">

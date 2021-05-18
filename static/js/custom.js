@@ -162,23 +162,23 @@
     // - to top btn
 
     // Count Down
-    var $count_token = $(".countdown .row");
-    if ($count_token.length > 0) {
-        $count_token.each(function () {
-            var date = new Date();
-            var $self = $(this),
-                datetime = new Date("2021-06-01T00:00:00.000+08:00");
-            $self.countdown(datetime).on("update.countdown", function (event) {
-                $(this).html(
-                    event.strftime(
-                        "" +
-                            '<div class="col"> <div class="ico-time">%D <span>Days</span> </div> </div>  <div class="col"> <div class="ico-time">%H <span>Hours</span> </div> </div> <div class="col"> <div class="ico-time">%M <span>Minuts</span> </div> </div>  <div class="col"> <div class="ico-time">%S <span>Seconds</span> </div> </div>'
-                    )
-                );
-                //$(this).html(event.strftime('' + '<div class="col"><span class="countdown-time countdown-time-first">%D</span><span class="countdown-text">Days</span></div>' + '<div class="col"><span class="countdown-time">%H</span><span class="countdown-text">Hours</span></div>' + '<div class="col"><span class="countdown-time">%M</span><span class="countdown-text">Minutes</span></div>' + '<div class="col"><span class="countdown-time countdown-time-last">%S</span><span class="countdown-text">Seconds</span></div>'));
-            });
-        });
-    }
+    // var $count_token = $(".countdown .row");
+    // if ($count_token.length > 0) {
+    //     $count_token.each(function () {
+    //         var date = new Date();
+    //         var $self = $(this),
+    //             datetime = new Date("2021-06-01T00:00:00.000+08:00");
+    //         $self.countdown(datetime).on("update.countdown", function (event) {
+    //             $(this).html(
+    //                 event.strftime(
+    //                     "" +
+    //                         '<div class="col"> <div class="ico-time">%D <span>Days</span> </div> </div>  <div class="col"> <div class="ico-time">%H <span>Hours</span> </div> </div> <div class="col"> <div class="ico-time">%M <span>Minuts</span> </div> </div>  <div class="col"> <div class="ico-time">%S <span>Seconds</span> </div> </div>'
+    //                 )
+    //             );
+    //             //$(this).html(event.strftime('' + '<div class="col"><span class="countdown-time countdown-time-first">%D</span><span class="countdown-text">Days</span></div>' + '<div class="col"><span class="countdown-time">%H</span><span class="countdown-text">Hours</span></div>' + '<div class="col"><span class="countdown-time">%M</span><span class="countdown-text">Minutes</span></div>' + '<div class="col"><span class="countdown-time countdown-time-last">%S</span><span class="countdown-text">Seconds</span></div>'));
+    //         });
+    //     });
+    // }
     // Preloader
     var $preload = $("#preloader"),
         $loader = $(".loader");
