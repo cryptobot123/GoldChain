@@ -216,7 +216,7 @@
             <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="1">
                 <div class="icon"><img src="img/ftIcon-4.webp" alt="Chain of Gold. Chain of Wealth" /></div>
                 <h5 class="pt-5">Wealth Accumulation</h5>
-                <p class="small">Active token holders will be invited to special groups to enjoy superior trading calls, quality knowledge sharing and skill upgrading.</p>
+                <p class="small">Active token holders will be invited to <a href="https://goldchainfinance.medium.com/the-wealthhunting-program-182b5a58a632" target="_blank">special groups</a> to enjoy superior trading calls, quality knowledge sharing and skill upgrading.</p>
             </div>
             <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="2">
                 <div class="icon"><img src="img/ftIcon-5.webp" alt="Money Tree Partnership" /></div>
@@ -284,7 +284,7 @@
                         <div class="col-md"><h6>Phase 2: Wealth Accumulation</h6></div>
                         <div class="col-md-5"><span class="date"> Q3, 2021 </span></div>
                         <p class="small">
-                            Open Wealth Hunting Group for active Token Holders <br/>
+                            Open <a href="https://goldchainfinance.medium.com/the-wealthhunting-program-182b5a58a632" target="_blank">Wealth Hunting Group</a> for active Token Holders <br/>
                             CoinGecko Listing <br/>
                             CoinMarketCap Listing <br/>
                             Initial CEX Listings <br/>
