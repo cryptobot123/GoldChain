@@ -359,7 +359,7 @@
                         <div class="col-6 name"></div>
                         <div class="col-6 date text-right font-italic"> </div>
                     </div>
-                    <h5> <a href="http://moonhunter.net/" target="_blank">MoonHunter</a> </h5>
+                    <h5><a href="http://moonhunter.net/" target="_blank">MoonHunter</a> </h5>
                     
                 </div>
             </div>
