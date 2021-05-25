@@ -352,7 +352,19 @@
         </div>
         <div class="blog-items row mt-5" style="text-align:center">
 
-            <div class="col-md-6">
+            <div class="col-md-4">
+                <div class="blog-item my-3 animated fadeInUpShort delay-250">
+                    <div class="sqr-img"> <img src="img/MH.jpg" style="height:150px" alt="blog1"></div>
+                    <div class="blog-meta row small py-3">
+                        <div class="col-6 name"></div>
+                        <div class="col-6 date text-right font-italic"> </div>
+                    </div>
+                    <h5> <a href="http://moonhunter.net/" target="_blank">MoonHunter</a> </h5>
+                    
+                </div>
+            </div>
+            
+            <div class="col-md-4">
                 <div class="blog-item my-3 animated fadeInUpShort delay-250">
                     <div class="sqr-img"> <img src="img/HKG.png" style="height:150px" alt="blog1"></div>
                     <div class="blog-meta row small py-3">
@@ -364,7 +376,7 @@
                 </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="blog-item my-3 animated fadeInUpShort delay-250">
                     <div class="sqr-img"> <img src="img/blueseed-group-logo.png" style="height:150px" alt="blog1"></div>
                     <div class="blog-meta row small py-3">
