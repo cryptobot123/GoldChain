@@ -35,70 +35,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.3.5/web3.min.js"></script>
 </svelte:head>
 
-<section id="services" class="services pt-5 text-center">
-    <!--Banner/Hero Slider-->
-    
-    <div id="particles-js" class="particles-js"></div>
-    <div class="banner">
-        <!--Banner Container-->
-        <div class="container">
-            <div class="bnr-cnt">
-                <div class="row">
-                    <div class="col-lg-6 animatedParent animateOnce" data-sequence="250">
-                        <!--bnr-head-->
-                        <!--End bnr-head-->
-                        <!--ico-countdown-->
-                        <div class="ico-countdown text-center px-5 py-4 my-5 animated fadeInLeftShort go" data-id="2">
-                            <h4>AIRDROP ENDS IN</h4>
-                            <div class="countdown my-4">
-                                <div class="row" data-date="2021/31/05"><!--Append timer--></div>
-                            </div>
-                        </div>
-                        <div style="margin-left: 80px;">
-                            <div class="social-links row" style="margin-top: 100px;font-size: 30px;margin-left:3px;color:white;">Follow Us:</div>
-                            <div class="social-links row">
-                                 <div>
-                                    <a class="col" href="https://twitter.com/GoldChainToken" style="font-size: 20px;" target="_blank"> <i class="fab fa-twitter" /><span style="margin-left:8px;"> Twitter</span></a>
-                                </div>
-                            </div>
-                            <div class="social-links row">
-                                <div>
-                                   <a class="col" href="https://t.me/goldchaingroup" style="font-size: 20px;" target="_blank"> <i class="fab fa-telegram"></i><span style="margin-left:8px;"> Telegram</span></a>
-                               </div>
-                           </div>
-   
-                            <div class="social-links row">
-                                <div>
-                                    <a class="col" href="https://goldchainfinance.medium.com" style="font-size: 20px;" target="_blank"> <img src="img/medium.png" alt=""/><span style="margin-left:8px;"> Medium</span></a>
-                                </div>
-                           </div>
-
-                        </div>
-                    </div>
-                    <!--End ico-countdown-->
-
-                    <div class="col-lg-6 bnr-image-wrap animatedParent animateOnce">
-                        <!--bnr-image-->
-                        <div class="bnr-image animated fadeInRightShort delay-250 go">
-                            <img src="img/banner1.webp" alt="Banner"/>
-                        </div>
-                        <!--End bnr-image-->
-                    </div>
-                        
-                </div>
-            </div>
-        </div>
-        <!--End Banner Container-->
-    </div>
-    <!--End Banner/Hero Slider-->
-</section>
-<!-- End features Section -->
 
 <section id="intro" class="faq py-4 text-center">
     <div class="container">
-        <div class="animatedParent animateOnce">
-            <h2 class="animated fadeInUpShort">Chain of Gold. Chain of Wealth</h2>
-        </div>
         <div class="accordion py-4 animatedParent animateOnce">
             <div class="faq-item animated fadeInUpShort" data-id="1">
                 <h6 class="collapsed" data-toggle="collapse" data-target="#faq1" aria-expanded="true">Before we begin, why are we here?</h6>
@@ -196,8 +135,8 @@
 <section id="tokenmetrics" class="services pt-5 text-center">
     <div class="container">
         <div class="bnr-cnt">
-            <!-- <div class="row"> -->
-                <div class="animatedParent animateOnce">
+            <div class="row">
+                <div class="col-lg-6 animatedParent animateOnce">
                     <h2 class="animated fadeInUpShort">GoldChainX Tokenmetrics</h2>
                     <div class="service-des py-1 animated fadeInUpShort">
                         <img src="img/tokenmetrics.png" alt="GoldChainX Tokenmetrics" />
@@ -206,12 +145,12 @@
                     <h4 class="animated fadeInUpShort">Total Supply: 50,000,000,000,000 GoldChainX</h4>
                 </div>
 
-                <!-- <div class="col-lg-6 bnr-image-wrap animatedParent animateOnce">
+                <div class="col-lg-6 bnr-image-wrap animatedParent animateOnce">
                     <div class="bnr-image animated fadeInRightShort go">
                         <img src="img/banner1.webp" alt="Banner"/>
                     </div>
-                </div> -->
-            <!-- </div> -->
+                </div>
+            </div>
             <br/>
             <div class="animatedParent animateOnce">
                 <h2 class="animated fadeInUpShort">GoldChainX Transaction Flow</h2>
