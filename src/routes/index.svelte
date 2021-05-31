@@ -31,138 +31,17 @@
 </script>
 
 <svelte:head>
-    <title>GoldChain is a wealth generating and accumulating decentralised community-based cryptocurrency, which aims to create a chain of value to token holders.</title>
+    <title>GoldChainX is a wealth generating and accumulating decentralised community-based cryptocurrency, which aims to create a chain of value to token holders.</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.3.5/web3.min.js"></script>
 </svelte:head>
-<section id="services" class="services pt-5 text-center">
-    <!--Banner/Hero Slider-->
-    
-    <div id="particles-js" class="particles-js"></div>
-    <div class="banner">
-        <!--Banner Container-->
-        <div class="container">
-            <div class="bnr-cnt">
-                <div class="row">
-                    <div class="col-lg-6 animatedParent animateOnce" data-sequence="250">
-                        <!--bnr-head-->
-                        <!--End bnr-head-->
-                        <!--ico-countdown-->
-                        <div class="ico-countdown text-center px-5 py-4 my-5 animated fadeInLeftShort go" data-id="2">
-                            <h4>AIRDROP ENDS IN</h4>
-                            <div class="countdown my-4">
-                                <div class="row" data-date="2021/31/05"><!--Append timer--></div>
-                            </div>
-                            <!-- <div class="ico-progress">
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" />
-                                    <span class="level-1" style="left:20%">Phase 1</span>
-                                    <span class="level-2" style="left:50%">Phase 2</span>
-                                    <span class="level-3" style="left:80%">Phase 3</span>
-                                </div>
-                            </div>
-                            <div class="ico-totalr pt-2 text-white">Total Raised : {TOTAL_RAISED} $</div> -->
-                        </div>
-                        <a href="https://goldchainfinance.medium.com" target="_blank"> 
-                            <u>Click here for Tutorial on how to Claim Airdrop and Buy GoldChain</u>
-                        </a>
-                        <br/>
-                        <br/>
-                        
-                        <!--End ico-countdown-->
 
-                        <div class="form">
-                            <div>
-                                <h3>CLAIM AIRDROP</h3>
-                                <p>*Invited by Wallet Address is Required!</p>
-                                <Airdrop referralAddress={validReferralAddress} />
-                                <br/>
-                                <br/>
-                                <h3>BUY GOLDCHAIN</h3>
-                                
-                                <p>Min buy 0.01 BNB (1,000,000,000 GoldChain)</p>
-                                <BuyToken referralAddress={validReferralAddress} />
-                                <br/>
-                                <br/>
-                                <h5>Please enter the wallet address of your Referer</h5>
-                                <div class="form-group">
-                                    <input
-                                        class={"form-control ico-form"}
-                                        name="text"
-                                        bind:value={referralAddress}
-                                        aria-label="Referral Address"
-                                        placeholder="Invited By (BEP20 Address)"
-                                    />
-                                </div>
-                                <br/>
-                                <br/>
-                                <div>
-                                    <h5>Refer and Get 50% of all Claim and 100% of all Buy!</h5>
-                                    <p>* You must have GoldChain in your BEP20 Wallet to receive referral reward</p>
-                                    <i
-                                        id="connector"
-                                        class="fa fa-circle mr-1 {$connected ? 'txt-success' : 'text-danger'}"
-                                        title=""
-                                        data-toggle-second="tooltip"
-                                        data-original-title={$connected ? "Connected" : "Connect to your Wallet"}
-                                    />
-                                    {#if $connected}
-                                        Connected - Web3 [{$selectedAccount}]
-                                        <button class="btn btn-ico btn-block" on:click={setWatchWallet}>Add {contractSymbol} to your Wallet</button>
-                                    {:else}
-                                        <button class="btn btn-ico btn-block" on:click={ethStore.setBrowserProvider}>Connect to your Wallet to generate a Referral Link</button>
-                                    {/if}
-                                </div>
-                                <Referral />
-                            </div>
-                        </div>
-                    </div>
-                    <!--End ico-countdown-->
+<div id="particles-js" class="particles-js"></div>
 
-                    <div class="col-lg-6 bnr-image-wrap animatedParent animateOnce">
-                        <!--bnr-image-->
-                        <div class="bnr-image animated fadeInRightShort delay-250 go">
-                            <img src="img/banner1.webp" alt="Banner"/>
-                        </div>
-                        <div class="" style="margin-left: 80px;">
-                            <div class="social-links row" style="margin-top: 100px;font-size: 30px;margin-left:3px;color:white;">Follow Us:</div>
-                            <div class="social-links row">
-                                 <div>
-                                    <a class="col" href="https://twitter.com/GoldChainToken" style="font-size: 20px;" target="_blank"> <i class="fab fa-twitter" /><span style="margin-left:8px;"> Twitter</span></a>
-                                </div>
-                            </div>
-                            <div class="social-links row">
-                                <div>
-                                   <a class="col" href="https://t.me/goldchaingroup" style="font-size: 20px;" target="_blank"> <i class="fab fa-telegram"></i><span style="margin-left:8px;"> Telegram</span></a>
-                               </div>
-                           </div>
-   
-                            <div class="social-links row">
-                                <div>
-                                    <a class="col" href="https://goldchainfinance.medium.com" style="font-size: 20px;" target="_blank"> <img src="img/medium.png" alt=""/><span style="margin-left:8px;"> Medium</span></a>
-                                </div>
-                           </div>
 
-                        </div>
-                        <!--End bnr-image-->
-                    </div>
-                        
-                </div>
-            </div>
-        </div>
-
-        <!--End Banner Container-->
-    </div>
-    <!--End Banner/Hero Slider-->
-</section>
-<!-- End features Section -->
-
-<section id="faqs" class="faq py-4 text-center">
+<section id="intro" class="faq py-4 text-center">
     <div class="container">
-        <div class="animatedParent animateOnce">
-            <h2 class="animated fadeInUpShort">Chain of Gold. Chain of Wealth</h2>
-        </div>
-        <div class="accordion py-4 animatedParent animateOnce" data-sequence="250">
-            <div class="faq-item animated fadeInUpShort delay-250" data-id="1">
+        <div class="accordion py-4 animatedParent animateOnce">
+            <div class="faq-item animated fadeInUpShort" data-id="1">
                 <h6 class="collapsed" data-toggle="collapse" data-target="#faq1" aria-expanded="true">Before we begin, why are we here?</h6>
                 <div id="faq1" class="collapse">
                     <p>
@@ -171,15 +50,15 @@
                 </div>
             </div>
             <div class="faq-item animated fadeInUpShort" data-id="2">
-                <h6 data-toggle="collapse" data-target="#faq2" aria-expanded="true">GoldChain Token</h6>
+                <h6 data-toggle="collapse" data-target="#faq2" aria-expanded="true">GoldChainX Token</h6>
                 <div id="faq2" class="collapse show">
                     <p>
-                        GoldChain is a wealth generating and accumulating decentralised community-based cryptocurrency, which aims to create a chain of value to token holders.
+                        GoldChainX is a wealth generating and accumulating decentralised community-based cryptocurrency, which aims to create a chain of value to token holders.
                     </p>
                 </div>
             </div>
 
-            <div class="faq-item animated fadeInUpShort" data-id="4">
+            <div class="faq-item animated fadeInUpShort" data-id="3">
                 <h6 class="collapsed" data-toggle="collapse" data-target="#faq3" aria-expanded="true">Do you know that there is the term “money tree” for a reason?</h6>
                 <div id="faq3" class="collapse">
                     <p>
@@ -191,9 +70,13 @@
                 <h6 class="collapsed" data-toggle="collapse" data-target="#faq4" aria-expanded="true">Sneak peek!!!</h6>
                 <div id="faq4" class="collapse">
                     <p>
-                        What’s best! We don’t use tree as a metaphor. Through our confirmed joint venture program, coinholders are members of the community that will contribute to grow more trees for every more dollar we make. Our community prospers with GoldChain and the world we live in will be happier with more trees. We meant it when we said “money tree”; and do stay long enough to be a part of that. Guarantee, we will all feel better in this journey.
+                        What’s best! We don’t use tree as a metaphor. Through our confirmed joint venture program, coinholders are members of the community that will contribute to grow more trees for every more dollar we make. Our community prospers with GoldChainX and the world we live in will be happier with more trees. We meant it when we said “money tree”; and do stay long enough to be a part of that. Guarantee, we will all feel better in this journey.
                     </p>
                 </div>
+            </div>
+            <div class="animated fadeInUpShort">
+                <br/>
+                Learn more about the changes, detail of the tokenomics, and trade flow for GoldChainX on our <a href="https://goldchainfinance.medium.com/goldchainx-tokenomics-c6377ff6c213" target="_blank">Medium article</a> 
             </div>
         </div>
     </div>
@@ -205,52 +88,86 @@
     <div class="container">
         <div class="animatedParent animateOnce">
             <h2 class="animated fadeInUpShort">In short, here is the Deal!</h2>
-            <div class="service-des py-1 animated fadeInUpShort delay-250">
-                <p>
-
-                </p>
-            </div>
         </div>
         <div class="service-items row py-2  animatedParent animateOnce" data-sequence="250">
 
-            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="1">
+            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort" data-id="1">
                 <div class="icon"><img src="img/ftIcon-4.webp" alt="Chain of Gold. Chain of Wealth" /></div>
                 <h5 class="pt-5">Wealth Accumulation</h5>
                 <p class="small">Active token holders will be invited to <a href="https://goldchainfinance.medium.com/the-wealthhunting-program-182b5a58a632" target="_blank">special groups</a> to enjoy superior trading calls, quality knowledge sharing and skill upgrading.</p>
             </div>
-            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="2">
+            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort" data-id="2">
                 <div class="icon"><img src="img/ftIcon-5.webp" alt="Money Tree Partnership" /></div>
                 <h5 class="pt-5">Money Tree Partnership</h5>
                 <p class="small">Faciliate lucrative business deals.</p>
                 <p class="small">More private sales and more airdrops.</p>
                 <p class="small">Potential profit sharing. A real Launch Pad.</p>
             </div>
-            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="3">
-                <div class="icon"><img src="img/ftIcon-2.webp" alt="Decentralised" /></div>
-                <h5 class="pt-5">Decentralised</h5>
-                <p class="small">100% community-powered</p>
-                <p class="small">Fair launch, developers hold no token</p>
+            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort" data-id="3">
+                <div class="icon"><img src="img/ftIcon-2.webp" alt="Hold and Earn. Simple" /></div>
+                <h5 class="pt-5">Hold and Earn. Simple.</h5>
+                <p class="small">Simply hold GoldChainX and earn passive rewards. 2% of each transaction will be distributed among all golden hands holders.</p>
             </div>
-            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="4">
-                <div class="icon"><img src="img/ftIcon-3.webp" alt="Safe and sound" /></div>
-                <h5 class="pt-5">Safe and sound</h5>
-                <p class="small">Contract locked, source code unchangeable</p>
-                <p class="small">Liquidity locked, unruggable</p>
+            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort" data-id="4">
+                <div class="icon"><img src="img/ftIcon-6.webp" alt="Safe and sound" /></div>
+                <h5 class="pt-5">Auto Lock LP</h5>
+                <p class="small">8% of every transaction is locked away into PancakeSwap’s liquidity pool to create a steadily rising price floor and more LP for GoldChainX.</p>
             </div>
-            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="5">
-                <div class="icon"><img src="img/ftIcon-1.webp" alt="Mobile app" /></div>
-                <h5 class="pt-5">Mobile App</h5>
-                <p class="small">Coming soon...</p>
+            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort" data-id="5">
+                <div class="icon"><img src="img/ftIcon-3.webp" alt="Safe and Sound" /></div>
+                <h5 class="pt-5">Safe and Sound</h5>
+                <p class="small">Contract locked, Liquidity locked, Unruggable</p>
+                <p class="small">Anti whales & bots manipulation, trades of more than 1% of the total supply will be rejected</p>
+                
             </div>
-            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort delay-250" data-id="6">
-                <div class="icon"><img src="img/ftIcon-6.webp" alt="Multicurrency Wallet" /></div>
-                <h5 class="pt-5">Multicurrency Wallet</h5>
+            <div class="col-sm-6 col-md-4 py-5 animated fadeInUpShort" data-id="6">
+                <div class="icon"><img src="img/ftIcon-1.webp" alt="Mobile Wallet" /></div>
+                <h5 class="pt-5">Mobile Wallet</h5>
                 <p class="small">Coming soon...</p>
             </div>
         </div>
     </div>
 </section>
 <!-- End features Section -->
+
+
+
+
+<!-- End features Section -->
+<section id="tokenmetrics" class="services pt-5 text-center">
+    <div class="container">
+        <div class="bnr-cnt">
+            <div class="row">
+                <div class="col-lg-6 animatedParent animateOnce">
+                    <h2 class="animated fadeInUpShort">GoldChainX Tokenmetrics</h2>
+                    <div class="service-des py-1 animated fadeInUpShort">
+                        <img src="img/tokenmetrics.png" alt="GoldChainX Tokenmetrics" />
+                    </div>
+                    <br/>
+                    <h4 class="animated fadeInUpShort">Total Supply: 50,000,000,000,000 GoldChainX</h4>
+                </div>
+
+                <div class="col-lg-6 bnr-image-wrap animatedParent animateOnce">
+                    <!--bnr-image-->
+                    <div class="bnr-image animated fadeInRightShort go">
+                        <img src="img/banner1.webp" alt="Banner"/>
+                    </div>
+                    <!--End bnr-image-->
+                </div>
+            </div>
+            <br/>
+            <div class="animatedParent animateOnce">
+                <h2 class="animated fadeInUpShort">GoldChainX Transaction Flow</h2>
+                <div class="service-des py-1 animated fadeInUpShort">
+                    <img src="img/flow.png" alt="GoldChainX Transaction Flow" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End features Section -->
+
+
 
 <!-- roadmap Section -->
 <section id="roadmap" class="roadmap py-4">
@@ -261,7 +178,7 @@
         <div class="rmap-wrap">
             <div class="animatedParent animateOnce"><div class="rmap-year finished animated fadeInUpShort">2021</div></div>
             <div class="rmap-items row no-gutters animatedParent animateOnce" data-sequence="250">
-                <div class="col-md-6 rmap-item finished animated active fadeInUpShort delay-250" data-id="1">
+                <div class="col-md-6 rmap-item finished animated active fadeInUpShort" data-id="1">
                     <div class="rmap-item-details row no-gutters">
                         <div class="col-md"><h6>Phase 1: Wealth Creation</h6></div>
                         <div class="col-md-5"><span class="date"> Q2, 2021 </span></div>
@@ -353,7 +270,7 @@
         <div class="blog-items row mt-5" style="text-align:center">
 
             <div class="col-md-3">
-                <div class="blog-item my-3 animated fadeInUpShort delay-250">
+                <div class="blog-item my-3 animated fadeInUpShort">
                     <div class="sqr-img"> <img src="img/MH.jpg" style="width:150px;height:150px" alt="blog1"></div>
                     <div class="blog-meta row small py-3">
                         <div class="col-6 name"></div>
@@ -368,7 +285,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="blog-item my-3 animated fadeInUpShort delay-250">
+                <div class="blog-item my-3 animated fadeInUpShort">
                     <div class="sqr-img"> <img src="img/beasts.jpg" style="width:150px;height:150px" alt="blog1"></div>
                     <div class="blog-meta row small py-3">
                         <div class="col-6 name"></div>
@@ -383,8 +300,8 @@
             </div>
             
             <div class="col-md-3">
-                <div class="blog-item my-3 animated fadeInUpShort delay-250">
-                    <div class="sqr-img"> <img src="img/HKG.png" style="width:150px;height:150px" alt="blog1"></div>
+                <div class="blog-item my-3 animated fadeInUpShort">
+                    <div class="sqr-img"> <img src="img/HKG.png" style="width:261px;height:150px" alt="blog1"></div>
                     <div class="blog-meta row small py-3">
                         <div class="col-6 name"></div>
                         <div class="col-6 date text-right font-italic"> </div>
@@ -395,7 +312,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="blog-item my-3 animated fadeInUpShort delay-250">
+                <div class="blog-item my-3 animated fadeInUpShort">
                     <div class="sqr-img"> <img src="img/blueseed-group-logo.png" style="width:150px;height:150px" alt="blog1"></div>
                     <div class="blog-meta row small py-3">
                         <div class="col-6 name"></div>
