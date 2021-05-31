@@ -73,8 +73,12 @@
                 </div>
             </div>
             <div class="animated fadeInUpShort">
-                <br/>
                 Learn more about the changes, detail of the tokenomics, and trade flow for GoldChainX on our <a href="https://goldchainfinance.medium.com/goldchainx-tokenomics-c6377ff6c213" target="_blank">Medium article</a> 
+            </div>
+
+            <div class="animated fadeInUpShort">
+                <br/><br/>
+                <h5><a href="https://app.unicrypt.network/amm/pancake-v2/pair/0x27bAA77A4A5F61948128A880D61e796B9f35182e" target="_blank">Liquidity is locked by unicrypt.network <br/>https://app.unicrypt.network/amm/pancake-v2/pair/0x27bAA77A4A5F61948128A880D61e796B9f35182e</a></h5>
             </div>
         </div>
     </div>
