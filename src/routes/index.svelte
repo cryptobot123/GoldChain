@@ -35,11 +35,127 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.3.5/web3.min.js"></script>
 </svelte:head>
 
-<div id="particles-js" class="particles-js"></div>
+<section id="services" class="services pt-5 text-center">
+    <!--Banner/Hero Slider-->
+    
+    <div id="particles-js" class="particles-js"></div>
+    <div class="banner">
+        <!--Banner Container-->
+        <div class="container">
+            <div class="bnr-cnt">
+                <div class="row">
+                    <div class="col-lg-6 animatedParent animateOnce" data-sequence="250">
+                        <!--bnr-head-->
+                        <!--End bnr-head-->
+                        <!--ico-countdown-->
+                        <div class="ico-countdown text-center px-5 py-4 my-5 animated fadeInLeftShort go" data-id="2">
+                            <h4>AIRDROP ENDS IN</h4>
+                            <div class="countdown my-4">
+                                <div class="row" data-date="2021/31/05"><!--Append timer--></div>
+                            </div>
+                            <!-- <div class="ico-progress">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" />
+                                    <span class="level-1" style="left:20%">Phase 1</span>
+                                    <span class="level-2" style="left:50%">Phase 2</span>
+                                    <span class="level-3" style="left:80%">Phase 3</span>
+                                </div>
+                            </div>
+                            <div class="ico-totalr pt-2 text-white">Total Raised : {TOTAL_RAISED} $</div> -->
+                        </div>
+                        <a href="https://goldchainfinance.medium.com" target="_blank"> 
+                            <u>Click here for Tutorial on how to Buy GoldChain</u>
+                        </a>
+                        <br/>
+                        <br/>
+                        
+                        <!--End ico-countdown-->
 
+                        <div class="form">
+                            <div>
+                                <h3>BUY GOLDCHAIN</h3>
+                                
+                                <p>Min buy 0.01 BNB (1,000,000,000 GoldChain)</p>
+                                <BuyToken referralAddress={validReferralAddress} />
+                                <br/>
+                                <br/>
+                                <h5>Please enter the wallet address of your Referer</h5>
+                                <div class="form-group">
+                                    <input
+                                        class={"form-control ico-form"}
+                                        name="text"
+                                        bind:value={referralAddress}
+                                        aria-label="Referral Address"
+                                        placeholder="Invited By (BEP20 Address)"
+                                    />
+                                </div>
+                                <br/>
+                                <br/>
+                                <div>
+                                    <h5>Refer and Get 100% of all Buy!</h5>
+                                    <p>* You must have GoldChain in your BEP20 Wallet to receive referral reward</p>
+                                    <i
+                                        id="connector"
+                                        class="fa fa-circle mr-1 {$connected ? 'txt-success' : 'text-danger'}"
+                                        title=""
+                                        data-toggle-second="tooltip"
+                                        data-original-title={$connected ? "Connected" : "Connect to your Wallet"}
+                                    />
+                                    {#if $connected}
+                                        Connected - Web3 [{$selectedAccount}]
+                                        <button class="btn btn-ico btn-block" on:click={setWatchWallet}>Add {contractSymbol} to your Wallet</button>
+                                    {:else}
+                                        <button class="btn btn-ico btn-block" on:click={ethStore.setBrowserProvider}>Connect to your Wallet to generate a Referral Link</button>
+                                    {/if}
+                                </div>
+                                <Referral />
+                            </div>
+                        </div>
+                    </div>
+                    <!--End ico-countdown-->
+
+                    <div class="col-lg-6 bnr-image-wrap animatedParent animateOnce">
+                        <!--bnr-image-->
+                        <div class="bnr-image animated fadeInRightShort delay-250 go">
+                            <img src="img/banner1.webp" alt="Banner"/>
+                        </div>
+                        <div class="" style="margin-left: 80px;">
+                            <div class="social-links row" style="margin-top: 100px;font-size: 30px;margin-left:3px;color:white;">Follow Us:</div>
+                            <div class="social-links row">
+                                 <div>
+                                    <a class="col" href="https://twitter.com/GoldChainToken" style="font-size: 20px;" target="_blank"> <i class="fab fa-twitter" /><span style="margin-left:8px;"> Twitter</span></a>
+                                </div>
+                            </div>
+                            <div class="social-links row">
+                                <div>
+                                   <a class="col" href="https://t.me/goldchaingroup" style="font-size: 20px;" target="_blank"> <i class="fab fa-telegram"></i><span style="margin-left:8px;"> Telegram</span></a>
+                               </div>
+                           </div>
+   
+                            <div class="social-links row">
+                                <div>
+                                    <a class="col" href="https://goldchainfinance.medium.com" style="font-size: 20px;" target="_blank"> <img src="img/medium.png" alt=""/><span style="margin-left:8px;"> Medium</span></a>
+                                </div>
+                           </div>
+
+                        </div>
+                        <!--End bnr-image-->
+                    </div>
+                        
+                </div>
+            </div>
+        </div>
+        <!--End Banner Container-->
+    </div>
+    <!--End Banner/Hero Slider-->
+</section>
+<!-- End features Section -->
 
 <section id="intro" class="faq py-4 text-center">
     <div class="container">
+        <div class="animatedParent animateOnce">
+            <h2 class="animated fadeInUpShort">Chain of Gold. Chain of Wealth</h2>
+        </div>
         <div class="accordion py-4 animatedParent animateOnce">
             <div class="faq-item animated fadeInUpShort" data-id="1">
                 <h6 class="collapsed" data-toggle="collapse" data-target="#faq1" aria-expanded="true">Before we begin, why are we here?</h6>
@@ -137,8 +253,8 @@
 <section id="tokenmetrics" class="services pt-5 text-center">
     <div class="container">
         <div class="bnr-cnt">
-            <div class="row">
-                <div class="col-lg-6 animatedParent animateOnce">
+            <!-- <div class="row"> -->
+                <div class="animatedParent animateOnce">
                     <h2 class="animated fadeInUpShort">GoldChainX Tokenmetrics</h2>
                     <div class="service-des py-1 animated fadeInUpShort">
                         <img src="img/tokenmetrics.png" alt="GoldChainX Tokenmetrics" />
@@ -147,14 +263,12 @@
                     <h4 class="animated fadeInUpShort">Total Supply: 50,000,000,000,000 GoldChainX</h4>
                 </div>
 
-                <div class="col-lg-6 bnr-image-wrap animatedParent animateOnce">
-                    <!--bnr-image-->
+                <!-- <div class="col-lg-6 bnr-image-wrap animatedParent animateOnce">
                     <div class="bnr-image animated fadeInRightShort go">
                         <img src="img/banner1.webp" alt="Banner"/>
                     </div>
-                    <!--End bnr-image-->
-                </div>
-            </div>
+                </div> -->
+            <!-- </div> -->
             <br/>
             <div class="animatedParent animateOnce">
                 <h2 class="animated fadeInUpShort">GoldChainX Transaction Flow</h2>
