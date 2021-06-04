@@ -35,11 +35,43 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.3.5/web3.min.js"></script>
 </svelte:head>
 
+<div id="particles-js" class="particles-js"></div>
 
-<section id="intro" class="faq py-4 text-center">
+<br/>
+<section id="airdrop" class="contact py-4 animatedParent animateOnce">
+    <div class="container">
+        <img src="img/Banner_Full.jpg" alt="GOLDCHAINX CELEBRATORY AIRDROP" />
+            
+        <div class="animated fadeInUpShort go" style="text-align:left">
+            <br/>
+            <br/>
+            <h3 style="text-align:center">🎁GOLDCHAINX CELEBRATORY AIRDROP</h3>
+            <h6>
+                <br/>
+                <br/>
+                <p>🎉In celebration of GoldChainX's 3x since the successful launch, we are AirDropping <b>US$10,000 worth of $GoldChainX</b> up for grabs!</p>
+
+                <p>💸Earn <b>US$6 worth of $GoldChainX tokens</b> for joining and <b>US$2 worth of $GoldChainX tokens</b> for each referral. </p>
+                
+                <br/>
+                <p>📜RULES</p>
+                <p>💥 Join our Telegram group <a href="https://t.me/goldchaingroup" target="_blank">@goldchaingroup</a> and channel <a href="https://t.me/goldchaintoken" target="_blank">@goldchaintoken</a>.</p>
+                <p>💥 Follow our Twitter <a href="https://twitter.com/GoldChainToken" target="_blank">https://twitter.com/GoldChainToken</a> and Retweet <a href="https://twitter.com/GoldChainToken/status/1400647839336648705" target="_blank">this post</a>.</p>
+                <p>💥 Submit your BSC address (BEP-20).</p>
+                <p>⏰The AirDrop event will end on June 30 and distribution will be delivered shortly after.</p>
+                
+                <br/>
+                <h4><p style="text-align:center">→ To participate, talk to our Airdrop Bot: <a href="https://t.me/GoldChain_AirdropBot" target="_blank">🤖 @GoldChain_AirdropBot</a></p></h4>
+            </h6>
+        </div>
+    </div>
+</section>
+
+<section id="intro" class="faq py-5 text-center">
     <div class="container">
         <div class="accordion py-4 animatedParent animateOnce">
-            <div class="faq-item animated fadeInUpShort" data-id="1">
+            <h2 class="animated">Chain of Gold. Chain of Wealth.</h2>
+            <div class="faq-item animated" data-id="1">
                 <h6 class="collapsed" data-toggle="collapse" data-target="#faq1" aria-expanded="true">Before we begin, why are we here?</h6>
                 <div id="faq1" class="collapse">
                     <p>
@@ -47,7 +79,7 @@
                     </p>
                 </div>
             </div>
-            <div class="faq-item animated fadeInUpShort" data-id="2">
+            <div class="faq-item animated" data-id="2">
                 <h6 data-toggle="collapse" data-target="#faq2" aria-expanded="true">GoldChainX Token</h6>
                 <div id="faq2" class="collapse show">
                     <p>
@@ -56,7 +88,7 @@
                 </div>
             </div>
 
-            <div class="faq-item animated fadeInUpShort" data-id="3">
+            <div class="faq-item animated" data-id="3">
                 <h6 class="collapsed" data-toggle="collapse" data-target="#faq3" aria-expanded="true">Do you know that there is the term “money tree” for a reason?</h6>
                 <div id="faq3" class="collapse">
                     <p>
@@ -64,7 +96,7 @@
                     </p>
                 </div>
             </div>
-            <div class="faq-item animated fadeInUpShort" data-id="4">
+            <div class="faq-item animated" data-id="4">
                 <h6 class="collapsed" data-toggle="collapse" data-target="#faq4" aria-expanded="true">Sneak peek!!!</h6>
                 <div id="faq4" class="collapse">
                     <p>
@@ -72,14 +104,26 @@
                     </p>
                 </div>
             </div>
-            <div class="animated fadeInUpShort">
-                Learn more about the changes, detail of the tokenomics, and trade flow for GoldChainX on our <a href="https://goldchainfinance.medium.com/goldchainx-tokenomics-c6377ff6c213" target="_blank">Medium article</a> 
-            </div>
+            <br/>
 
-            <div class="animated fadeInUpShort">
-                <br/><br/>
-                <h5><a href="https://app.unicrypt.network/amm/pancake-v2/pair/0x27bAA77A4A5F61948128A880D61e796B9f35182e" target="_blank">Liquidity is locked by unicrypt.network <br/>https://app.unicrypt.network/amm/pancake-v2/pair/0x27bAA77A4A5F61948128A880D61e796B9f35182e</a></h5>
+            
+            <div class="animated fadeInUpShort" style="text-align:left">
+                
+                <h5>Contract Address: 0x496bbf82e73a4ca814de87248c4c8bbb214b7cff</h5>
+                <br/>
+
+                <h5>Chart: <br/><a href="https://poocoin.app/tokens/0x496bbf82e73a4ca814de87248c4c8bbb214b7cff" target="_blank">https://poocoin.app/tokens/0x496bbf82e73a4ca814de87248c4c8bbb214b7cff</a></h5>
+                <br/>
+
+                <h5>Trade in PancakeSwap: <br/><a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x496bbf82e73a4ca814de87248c4c8bbb214b7cff" target="_blank">https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x496bbf82e73a4ca814de87248c4c8bbb214b7cff</a></h5>
+                <br/>
+                <h5>Liquidity is locked by unicrypt.network: <br/><a href="https://app.unicrypt.network/amm/pancake-v2/pair/0x27bAA77A4A5F61948128A880D61e796B9f35182e" target="_blank">https://app.unicrypt.network/amm/pancake-v2/pair/0x27bAA77A4A5F61948128A880D61e796B9f35182e</a></h5>
+            
+                <br/>
+                <h5>Learn more about the changes, detail of the tokenomics, and trade flow for GoldChainX on our <a href="https://goldchainfinance.medium.com/goldchainx-tokenomics-c6377ff6c213" target="_blank">Medium article</a></h5>
+            
             </div>
+            
         </div>
     </div>
 </section>
@@ -132,9 +176,6 @@
 </section>
 <!-- End features Section -->
 
-
-
-
 <!-- End features Section -->
 <section id="tokenmetrics" class="services pt-5 text-center">
     <div class="container">
@@ -150,7 +191,7 @@
                 </div>
 
                 <div class="col-lg-6 bnr-image-wrap animatedParent animateOnce">
-                    <div class="bnr-image animated fadeInRightShort go">
+                    <div class="bnr-image animated fadeInRightShort">
                         <img src="img/banner1.webp" alt="Banner"/>
                     </div>
                 </div>

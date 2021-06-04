@@ -25,7 +25,7 @@
                 <ul class="navbar-nav text-uppercase animated fadeInUpShort delay-250 go">
                     <li class="nav-item"><a class="nav-link" href="#services">Features</a></li>
                     <li class="nav-item"><a class="nav-link" href="#tokenmetrics">Tokenmetrics</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://goldchainfinance.medium.com/the-wealthhunting-program-182b5a58a632" target="_blank">Wealth Hunting</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://goldchainfinance.medium.com/the-wealthhunting-program-182b5a58a632" target="_blank">WealthHunting</a></li>
                     <!-- <li class="nav-item"><a class="nav-link" href="#faqs">Our Idea</a></li> -->
                     <li class="nav-item"><a class="nav-link" href="#roadmap">Roadmap</a></li>
                     <li class="nav-item"><a class="nav-link" href="#partners">Partners</a></li>
