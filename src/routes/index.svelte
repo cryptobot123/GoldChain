@@ -56,7 +56,7 @@
                 <br/>
                 <p>📜RULES</p>
                 <p>💥 Join our Telegram group <a href="https://t.me/goldchaingroup" target="_blank">@goldchaingroup</a> and channel <a href="https://t.me/goldchaintoken" target="_blank">@goldchaintoken</a>.</p>
-                <p>💥 Follow our Twitter <a href="https://twitter.com/GoldChainToken" target="_blank">https://twitter.com/GoldChainToken</a> and Retweet <a href="https://twitter.com/GoldChainToken/status/1400647839336648705" target="_blank">this post</a>.</p>
+                <p>💥 Follow our Twitter <a href="https://twitter.com/GoldChainToken" target="_blank">https://twitter.com/GoldChainToken</a> and Retweet <a href="https://twitter.com/GoldChainToken/status/1400662369718521861" target="_blank">this post</a>.</p>
                 <p>💥 Submit your BSC address (BEP-20).</p>
                 <p>⏰The AirDrop event will end on June 30 and distribution will be delivered shortly after.</p>
                 
