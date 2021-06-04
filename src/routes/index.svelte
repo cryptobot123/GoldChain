@@ -43,12 +43,8 @@
         <img src="img/Banner_Full.jpg" alt="GOLDCHAINX CELEBRATORY AIRDROP" />
             
         <div class="animated fadeInUpShort go" style="text-align:left">
-            <br/>
-            <br/>
-            <h3 style="text-align:center">🎁GOLDCHAINX CELEBRATORY AIRDROP</h3>
+            <h2 style="text-align:center">🎁GOLDCHAINX CELEBRATORY AIRDROP</h2>
             <h6>
-                <br/>
-                <br/>
                 <p>🎉In celebration of GoldChainX's 3x since the successful launch, we are AirDropping <b>US$10,000 worth of $GoldChainX</b> up for grabs!</p>
 
                 <p>💸Earn <b>US$6 worth of $GoldChainX tokens</b> for joining and <b>US$2 worth of $GoldChainX tokens</b> for each referral. </p>
