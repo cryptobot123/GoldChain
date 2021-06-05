@@ -47,7 +47,7 @@
             <h6>
                 <p>🎉In celebration of GoldChainX's 3x since the successful launch, we are AirDropping <b>US$10,000 worth of $GoldChainX</b> up for grabs!</p>
 
-                <p>💸Earn <b>US$6 worth of $GoldChainX tokens</b> for joining and <b>US$2 worth of $GoldChainX tokens</b> for each referral. </p>
+                <p>💸Earn <b>US$6 worth of $GoldChainX tokens</b> for joining and <b>US$2 worth of $GoldChainX tokens</b> for each referral (maximum 2 referrals). </p>
                 
                 <br/>
                 <p>📜RULES</p>
